@@ -1,0 +1,20 @@
+# Site settings
+title: Syntropy Blog
+email: contact@syntropy.io
+description: "Syntropy is a software development company based in Morgantown, West Virginia. We specialize in using web, iPhone, iPad and Android to connect with customers and automate business processes."
+baseurl: ""
+url: "http://syntropy.io"
+twitter_username: SyntropyDev
+github_username:  SyntropyDev
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: numeric
+
+timezone: America/New_York
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+

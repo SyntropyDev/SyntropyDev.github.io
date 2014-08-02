@@ -1,0 +1,34 @@
+---
+layout: no-nav
+---
+
+<div class="post">
+
+  <div class="blog-header">
+    {% include header.html %}
+
+    <div class="container">
+
+      <header class="post-header">
+        <h1>{{ page.title }}</h1>
+        <h2>{{ page.subtitle }}</h2>
+        <h3 class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</h3>
+      </header>
+
+    </div>
+  </div>
+
+  <div class="section light blog">
+    <div class="">
+      <div class="row">
+        <div class="col-xs-12">
+          <article class="post-content">
+            {{ content }}
+          </article>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,81 @@
+<head>
+
+  <!--Basics-->
+
+  <!--Responsive-->
+  <meta name="viewport" content="initial-scale=1">
+
+  <!--Styles-->
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+  <!--Typekit-->
+  <script type="text/javascript" src="//use.typekit.net/bkv3vpf.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="/icons/favicon.ico">
+  <link rel="apple-touch-icon" sizes="57x57" href="/icons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/icons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/icons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/icons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/icons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/icons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/icons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/icons/apple-touch-icon-152x152.png">
+  <link rel="icon" type="image/png" href="/icons/favicon-196x196.png" sizes="196x196">
+  <link rel="icon" type="image/png" href="/icons/favicon-160x160.png" sizes="160x160">
+  <link rel="icon" type="image/png" href="/icons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/icons/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/icons/favicon-32x32.png" sizes="32x32">
+  <meta name="msapplication-TileColor" content="#77bc1f">
+  <meta name="msapplication-TileImage" content="/icons/mstile-144x144.png">
+  <meta name="msapplication-config" content="/icons/browserconfig.xml">
+
+  <!--TODO: Update to fit the post-->
+  <!--Twitter-->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@syntropydev">
+  <meta name="twitter:title" content="Syntropy">
+  <meta name="twitter:description" content="Syntropy specializes in using web, iOS and Android to connect with customers and automate business processes.">
+  <meta name="twitter:creator" content="">
+  <meta name="twitter:image:src" content="http://syntropydev.com/images/syntropy-logo@1x.png">
+  <meta name="twitter:domain" content="http://www.syntropydev.com">
+
+  <!--TODO: Update to fit the post-->
+  <!--Facebook-->
+  <meta property="og:title" content="Syntropy" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://www.syntropydev.com/" />
+  <meta property="og:image" content="http://syntropydev.com/images/team/work.jpg" />
+  <meta property="og:description" content="Syntropy specializes in using web, iOS and Android to connect with customers and automate business processes." />
+  <meta property="fb:admins" content="670616182" />
+
+  <!--Google Analytics-->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-52254120-1', 'syntropydev.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+  </script>
+
+
+
+
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{{ site.description }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+    <!-- Custom CSS -->
+    <!--<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">-->
+    <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
+
+
+
+</head>
