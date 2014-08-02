@@ -8,7 +8,7 @@ quote_source: "Confucius"
 
 image_author: "Johan Larsson"
 image_source: "https://www.flickr.com/photos/johanl/8348989885"
-image_url: "images/blog/8348989885_704a1af7ae_o.jpg"
+image_url: "/images/blog/8348989885_704a1af7ae_o.jpg"
 
 author: "Sam McLaughlin"
 
