@@ -48,3 +48,9 @@ timezone: America/New_York
 markdown: kramdown
 permalink: pretty
 
+gems:
+- jekyll-mentions
+- jemoji
+- jekyll-redirect-from
+- jekyll-sitemap
+

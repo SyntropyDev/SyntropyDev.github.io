@@ -2,12 +2,10 @@
 layout: post
 title:  "So You Have an App Idea? Part 1"
 subtitle: "What to do with your next great idea."
-date:   2014-08-04 10:30:15
+quote: "He that would perfect his work must first sharpen his tools."
+source: "Confucius"
 tags: apps lean startup idea series
 ---
-
-> "He that would perfect his work must first sharpen his tools."
-> <br>&mdash; Confucius
 
 The flash of inspiration has struck. You've found your great idea for an app or website. Now what? Over the course of our 3-part "So You Have an App Idea" series we'll cover how to evaluate, implement, and learn from your ideas to help you build the next great thing. First up: how to evaluate and refine your idea.
 
