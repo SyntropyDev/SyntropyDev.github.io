@@ -17,7 +17,7 @@ contact_phone: +1 (304) 212-3444
 contact_email: contact@syntropy.io
 
 contact_form_method: POST
-contact_form_redirect_url: http://syntropy.brace.io/thanks.html
+contact_form_redirect_url: http://syntropydev.github.io/thanks/
 contact_form_action_url: ////forms.brace.io/sam@syntropy.io
 
 hours: "9am - 6pm"
