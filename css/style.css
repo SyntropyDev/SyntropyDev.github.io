@@ -82,6 +82,21 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 20px;
   max-width: 600px;
   color: #4d4d4d; }
+.blog .comments {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  max-width: 600px;
+  color: #4d4d4d; }
+.blog .blog-break {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  max-width: 600px; }
 .blog article h2 {
   font-family: DIN-Medium;
   margin-top: 30px;
