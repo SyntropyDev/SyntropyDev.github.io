@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Testing the Schedules of Highly Effective People."
-date:   2014-07-28 10:30:15
+date:   2014-05-28 10:30:15
 tags: series productivity schedules
 ---
 

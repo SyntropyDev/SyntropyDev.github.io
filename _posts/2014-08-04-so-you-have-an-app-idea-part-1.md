@@ -2,7 +2,7 @@
 layout: post
 title:  "So You Have an App Idea? Part 1"
 subtitle: "What to do with your next great idea."
-date:   2014-07-28 10:30:15
+date:   2014-08-04 10:30:15
 tags: apps lean startup idea series
 ---
 
