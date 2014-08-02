@@ -1,11 +1,36 @@
 # Site settings
-title: Syntropy Blog
+title: Syntropy
 email: contact@syntropy.io
-description: "Syntropy is a software development company based in Morgantown, West Virginia. We specialize in using web, iPhone, iPad and Android to connect with customers and automate business processes."
+description: "
+  Syntropy is a software development company based in Morgantown, West Virginia that builds apps to help build your business.
+  We specialize in using web, iPhone, iPad and Android to connect with customers and automate business processes.
+  "
+
 baseurl: ""
 url: "http://syntropy.io"
+
 twitter_username: SyntropyDev
 github_username:  SyntropyDev
+facebook_username: syntropydevelopment
+plus_page: https://plus.google.com/116023901843696548502
+contact_phone: +1 (304) 212-3444
+contact_email: contact@syntropy.io
+
+hours: "9am - 6pm"
+primary_location:
+  name: Morgantown, WV
+  street: 5005 Mid-Atlantic Road
+  city: Morgantown
+  state: WV
+  zip: 26508
+
+
+other_locations:
+    - name: Charleston, WV
+      street: 818 Oakwood Road
+      city: Charleston
+      state: WV
+      zip: "25314"
 
 kramdown:
   auto_ids: true
