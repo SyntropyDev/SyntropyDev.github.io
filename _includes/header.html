@@ -19,7 +19,7 @@
         {% for page in sorted_pages%}
 
         {% if page.visibility == "navigation" %}
-        <li><a href="{{page.url}}">{{page.title}}</a></li>
+        <li><a href="{{page.url}}" class="nav-page-{{page.title}}">{{page.title}}</a></li>
         {% endif %}
 
         {% endfor %}

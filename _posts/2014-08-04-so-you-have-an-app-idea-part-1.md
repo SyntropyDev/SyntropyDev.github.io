@@ -2,8 +2,16 @@
 layout: post
 title:  "So You Have an App Idea? Part 1"
 subtitle: "What to do with your next great idea."
+
 quote: "He that would perfect his work must first sharpen his tools."
-source: "Confucius"
+quote_source: "Confucius"
+
+image_author: "Johan Larsson"
+image_source: "https://www.flickr.com/photos/johanl/8348989885"
+image_url: "images/blog/8348989885_704a1af7ae_o.jpg"
+
+author: "Sam McLaughlin"
+
 tags: apps lean startup idea series
 ---
 

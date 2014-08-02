@@ -340,6 +340,11 @@ blockquote {
   .navbar .container-fluid {
     height: 60px; }
 
+.navbar-nav > li {
+  float: left;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
 .navbar-header {
   height: 60px; }
 
@@ -366,7 +371,18 @@ blockquote {
 .navbar-nav > li > a {
   padding-top: 0px;
   padding-bottom: 0px;
-  line-height: 60px; }
+  line-height: 35px; }
+
+.navbar-nav > li > a.nav-page-Contact:hover {
+  border: 1px solid transparent;
+  background-color: #77bc1f;
+  border-radius: 4px;
+  color: white; }
+
+.navbar-nav > li > a.nav-page-Contact {
+  border: 1px solid #77bc1f;
+  color: #77bc1f;
+  border-radius: 4px; }
 
 .dark .navbar-default .navbar-nav > li > a {
   color: rgba(255, 255, 255, 0.85);
