@@ -8,7 +8,7 @@ rank: 4
 
 <div class="map-container">
   <div class="map">
-    <iframe width="100%" height="100%" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=5005%20Mid-Atlantic%20Road%2C%20Morgantown%2C%20WV%2C%20United%20States&key=AIzaSyDS756UNHBCS5CSftugfayC-zTLwKCX_YY"></iframe>
+    <iframe width="100%" height="100%" frameborder="0" style="border:0" src="{{site.google_map_url}}"></iframe>
   </div>
 </div>
 <div class="section light">
@@ -18,7 +18,7 @@ rank: 4
       <div class="col-md-5 col-sm-6">
         <h2 id="contact">Contact</h2>
 
-        <form method="POST" action="////forms.brace.io/sam@syntropy.io" role="form">
+        <form method="{{site.contact_form_method}}" action="{{site.contact_form_action_url}}" role="form">
           <div class="row">
             <div class="col-sm-6">
               <div class="form-group">
@@ -41,7 +41,7 @@ rank: 4
           </div>
 
           <div class="form-group">
-            <input type="hidden" name="_next" value="http://syntropy.brace.io/thanks.html" />
+            <input type="hidden" name="_next" value="{{site.contact_form_redirect_url}}" />
             <input class="btn-outline dark" type="submit" value="Send">
           </div>
 
@@ -50,14 +50,17 @@ rank: 4
 
       <div class="col-md-5 col-md-offset-2 col-sm-6">
         <h3 >More Info</h3>
-        Not fond of contact forms? Email us directly at contact@syntropy.io or call us at +1 304 212 3444.
+        Not fond of contact forms? Email us directly at {{site.contact_email}} or call us at {{site.contact_phone}}.
 
         <h3 style="margin-top: 30px;">Main Office </h3>
-        <address>5005 Mid Atlantic Drive<br>
-          Morgantown, WV 26505</address>
+        <address style="display: inline-block; margin-bottom: 0px;">
+          {{ site.primary_location.street }}<br/>
+          {{ site.primary_location.city }}, {{ site.primary_location.state }} {{ site.primary_location.zip }}
+        </address>
         <br>
-        <div class="big"> +1 304 212 3444</div>
-        <span>AVAILABLE 9AM - 6PM</span>
+        <br>
+        <div class="big"> {{site.contact_phone}}</div>
+        <span style="text-transform: uppercase">Available {{site.hours}}</span>
 
       </div>
     </div>

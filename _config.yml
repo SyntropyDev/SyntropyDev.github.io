@@ -16,7 +16,12 @@ plus_page: https://plus.google.com/116023901843696548502
 contact_phone: +1 (304) 212-3444
 contact_email: contact@syntropy.io
 
+contact_form_method: POST
+contact_form_redirect_url: http://syntropy.brace.io/thanks.html
+contact_form_action_url: ////forms.brace.io/sam@syntropy.io
+
 hours: "9am - 6pm"
+google_map_url: "https://www.google.com/maps/embed/v1/place?q=5005%20Mid-Atlantic%20Road%2C%20Morgantown%2C%20WV%2C%20United%20States&key=AIzaSyDS756UNHBCS5CSftugfayC-zTLwKCX_YY"
 primary_location:
   name: Morgantown, WV
   street: 5005 Mid-Atlantic Road
