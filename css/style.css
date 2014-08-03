@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 50px;
     margin: 0;
     padding: 0;
-    padding-top: 75px; }
+    padding-top: 90px; }
   .blog-header h2 {
     font-family: DIN-Light;
     font-size: 36px;
@@ -56,13 +56,24 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 27px;
     margin: 0;
     padding: 0;
-    padding-bottom: 105px; }
+    padding-bottom: 120px; }
   .blog-header div.attribution {
     margin-bottom: 15px;
     color: rgba(255, 255, 255, 0.65);
     text-shadow: rgba(0, 0, 0, 0.35); }
     .blog-header div.attribution a {
       color: rgba(255, 255, 255, 0.65); }
+
+.blog-header.post {
+  background: url("/images/blog/phone2.png") no-repeat center center;
+  position: relative;
+  color: white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: auto;
+  width: 100%; }
 
 .posts {
   list-style-type: none; }

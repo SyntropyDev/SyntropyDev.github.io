@@ -49,6 +49,8 @@ only screen and (min-resolution                        : 2dppx) {
   border-bottom: 8px solid $green;
 }
 
+
+
 .blog-header {
   position                : relative;
   color                   : $off-white;
@@ -68,7 +70,7 @@ only screen and (min-resolution                        : 2dppx) {
     line-height: 50px;
     margin:0;
     padding:0;
-    padding-top: 75px;
+    padding-top: 90px;
 
   }
 
@@ -88,7 +90,7 @@ only screen and (min-resolution                        : 2dppx) {
     line-height: 27px;
     margin:0;
     padding:0;
-    padding-bottom: 105px;
+    padding-bottom: 120px;
 
   }
 
@@ -104,6 +106,17 @@ only screen and (min-resolution                        : 2dppx) {
   }
 }
 
+.blog-header.post{
+  background: url("/images/blog/phone2.png") no-repeat center center;
+  position                : relative;
+  color                   : $off-white;
+  -webkit-background-size : cover;
+  -moz-background-size    : cover;
+  -o-background-size      : cover;
+  background-size         : cover;
+  height                  : auto;
+  width                   : 100%;
+}
 
 .posts {
   list-style-type: none;
