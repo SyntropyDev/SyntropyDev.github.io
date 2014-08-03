@@ -11,7 +11,7 @@ image_source: "https://flic.kr/p/bnZKrV"
 image_url: "/images/blog/6812481635_5100185e9b_o.jpg"
 
 author: "Sam McLaughlin"
-published: false
+published: true
 
 tags: series productivity schedules
 ---
