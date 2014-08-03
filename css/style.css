@@ -388,9 +388,6 @@ blockquote {
   transition: all .4s ease 0;
   background-color: transparent; }
 
-@media (max-width: 768px) {
-  .navbar-default.dark {
-    background-color: rgba(59, 59, 62, 0.65); } }
 .navbar-default.dark:hover {
   background-color: rgba(59, 59, 62, 0.65); }
 
@@ -416,6 +413,17 @@ blockquote {
   color: #77bc1f;
   border-radius: 4px; }
 
+@media (max-width: 768px) {
+  .navbar-default.dark {
+    background-color: rgba(59, 59, 62, 0.65); }
+
+  .navbar-nav > li > a {
+    font-size: 14px; }
+
+  .navbar-nav > li > a.nav-page-Contact {
+    border: 0px solid transparent;
+    color: #77bc1f;
+    border-radius: 4px; } }
 .dark .navbar-default .navbar-nav > li > a {
   color: rgba(255, 255, 255, 0.85);
   transition: all .2s ease-in-out 0; }
