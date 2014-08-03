@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Testing the Schedules of Highly Effective People."
+title:  "Testing the Schedules of Highly Effective People"
 date:   2014-05-28 10:30:15
 
 quote: "There cannot be a crisis next week. My schedule is already full."

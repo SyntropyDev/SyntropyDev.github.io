@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
 .blog-header {
   position: relative;
   color: white;
-  background: url("/images/blog/phone2.png") no-repeat center center;
+  background: url("/images/blog/greenbank.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -57,22 +57,38 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
     padding-bottom: 105px; }
+  .blog-header div.attribution {
+    margin-bottom: 15px;
+    color: rgba(255, 255, 255, 0.65);
+    text-shadow: rgba(0, 0, 0, 0.35); }
+    .blog-header div.attribution a {
+      color: rgba(255, 255, 255, 0.65); }
 
 .posts {
   list-style-type: none; }
-
-.posts li {
-  margin-bottom: 30px; }
-
-.posts .post-link {
-  font-size: 24px;
-  letter-spacing: -1px;
-  line-height: 1; }
-
-.posts .post-date {
-  display: block;
-  font-size: 15px;
-  color: #818181; }
+  .posts li {
+    padding-bottom: 45px;
+    margin-bottom: 45px;
+    border-bottom: 1px solid #d0d5d8; }
+    .posts li p {
+      font-size: 16px;
+      line-height: 30px;
+      margin: 10px 0 10px;
+      color: #333333; }
+  .posts .post-link {
+    font-size: 26px;
+    letter-spacing: -1px;
+    line-height: 1;
+    color: #323a45;
+    text-decoration: none; }
+  .posts .post-date {
+    display: block;
+    font-size: 15px;
+    color: #818181; }
+  .posts .post-author {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #848484; }
 
 .blog article h1, .blog article h2, .blog article h3, .blog article h4, .blog article h5, .blog article h6, .blog article p, .blog article ol, .blog article ul, .blog article table, .blog article blockquote, .blog header#page_header, .blog figure.kudo {
   padding-left: 10px;
@@ -97,6 +113,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 30px;
   margin-bottom: 30px;
   max-width: 600px; }
+.blog .blog-aside {
+  background-color: #77BC1F; }
 .blog article h2 {
   font-family: DIN-Medium;
   margin-top: 30px;
@@ -106,13 +124,16 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0px;
   margin-bottom: 0px; }
 .blog article p {
-  font-size: 18px;
-  line-height: 1.5;
+  font-size: 16px;
+  line-height: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
   font-family: 'proxima-nova','Helvetica','Avenir','Arial',sans-serif;
   font-weight: 400;
   color: #4d4d4d; }
+.blog article ul li {
+  font-size: 16px;
+  line-height: 30px; }
 .blog p {
   margin-top: 25px;
   margin-bottom: 25px; }
