@@ -1,6 +1,6 @@
 $font-stack : "proxima-nova", Helvetica, sans-serif;
-$medium-font-stack : "ff-din-web", ff-din-medium, sans-serif;
-$light-font-stack : "ff-din-web", ff-din-light, sans-serif;
+$medium-font-stack : "ff-din-web", sans-serif;
+$light-font-stack : "ff-din-web", sans-serif;
 
 $primary-color : #333;
 $green : #77BC1F;
@@ -69,8 +69,7 @@ only screen and (min-resolution                        : 2dppx) {
     color: #FFFFFF;
     line-height: 50px;
     margin:0;
-    padding:0;
-    padding-top: 90px;
+    padding : 90px 0 0;
 
   }
 
@@ -89,8 +88,7 @@ only screen and (min-resolution                        : 2dppx) {
     color: rgba(255,255,255,0.65);
     line-height: 27px;
     margin:0;
-    padding:0;
-    padding-bottom: 120px;
+    padding : 0 0 120px;
 
   }
 
@@ -164,9 +162,7 @@ only screen and (min-resolution                        : 2dppx) {
   article h1, article h2, article h3, article h4, article h5, article h6, article p, article ol, article ul, article table, article blockquote, header#page_header, figure.kudo {
     padding-left: 10px;
     padding-right: 10px;
-    margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin   : 20px auto;
     max-width: 600px;
     color: #4d4d4d;
 
@@ -175,9 +171,7 @@ only screen and (min-resolution                        : 2dppx) {
   .comments{
     padding-left: 10px;
     padding-right: 10px;
-    margin: 0 auto;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin   : 30px auto 20px;
     max-width: 600px;
     color: #4d4d4d;
 
@@ -186,9 +180,7 @@ only screen and (min-resolution                        : 2dppx) {
   .blog-break{
     padding-left: 10px;
     padding-right: 10px;
-    margin: 0 auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin   : 30px auto;
     max-width: 600px;
   }
 
@@ -399,7 +391,6 @@ body.dark {
 }
 
 .section.dark.pitch{
-  //    background              : url("/images/Punishment_sisyph.jpg ") no-repeat center top;
   background-color: #3b3b3e;
   -webkit-background-size : cover;
   -moz-background-size    : cover;
@@ -407,14 +398,10 @@ body.dark {
   background-size         : cover;
   height                  : auto;
   width                   : 100%;
-
 }
 
 .section.circuit{
-  background-color: FFF; /*Default bg, similar to the background's base color*/
-  background-image: url('/images/Circuit.png');
-  background-position: right bottom; /*Positioning*/
-  background-repeat: no-repeat; /*Prevent showing multiple background images*/
+  background     : FFF url('/images/Circuit.png') no-repeat right bottom;
   background-size: 23% auto;
 }
 
@@ -447,11 +434,7 @@ body.dark {
 
 .footer {
   font-size      : 14px;
-  padding-top    : 30px;
-  padding-bottom : 30px;
-
-  padding-left: 30px;
-  padding-right: 30px;
+  padding        : 30px;
   text-align     : left;
 
   img {
@@ -722,8 +705,7 @@ label {
   display: block;
   width: 100%;
   height: 34px;
-  padding: 6px 12px;
-  padding-left:6px;
+  padding  : 6px 12px 6px 6px;
   font-size: 14px;
   line-height: 1.42857143;
   border-radius: 2px;
@@ -767,8 +749,6 @@ textarea, input { outline: none; }
 .footer h5, .footer h6{
   color: #FFFEFD;
   font-weight: bold;
-  //  border-bottom: 2px solid $grey;
-  //  padding-bottom: 5px;
   margin-right: 60px;
 }
 
@@ -812,7 +792,6 @@ textarea, input { outline: none; }
 @media only screen and (max-width: 767px) {
 
   .section.dark.pitch{
-    //    background              : url("/images/Punishment_sisyph.jpg ") no-repeat 20% top;
     -webkit-background-size : cover;
     -moz-background-size    : cover;
     -o-background-size      : cover;
@@ -966,11 +945,8 @@ textarea, input { outline: none; }
         background-color: $green;
         line-height: 1.1em;
         color: #FFF;
-        padding-left: 30px;
-        padding-right: 30px;
         margin-bottom: 0px;
-        padding-bottom: 10px;
-        padding-top: 10px;
+        padding      : 10px 30px;
         margin-top: 0;
       }
       small{

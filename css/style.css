@@ -7,7 +7,7 @@ html, body {
   height: 100%; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "ff-din-web", ff-din-light, sans-serif; }
+  font-family: "ff-din-web", sans-serif; }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   background: url("/images/Hero%20Container@0.5x.jpg") no-repeat center center; }
@@ -35,28 +35,26 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   border-bottom: 8px solid #77bc1f; }
   .blog-header h1 {
-    font-family: "ff-din-web", ff-din-medium, sans-serif;
+    font-family: "ff-din-web", sans-serif;
     font-size: 44px;
     color: #FFFFFF;
     line-height: 50px;
     margin: 0;
-    padding: 0;
-    padding-top: 90px; }
+    padding: 90px 0 0; }
   .blog-header h2 {
-    font-family: "ff-din-web", ff-din-medium, sans-serif;
+    font-family: "ff-din-web", sans-serif;
     font-size: 36px;
     color: rgba(255, 255, 255, 0.65);
     line-height: 43px;
     margin: 0;
     padding: 0; }
   .blog-header h3 {
-    font-family: "ff-din-web", ff-din-medium, sans-serif;
+    font-family: "ff-din-web", sans-serif;
     font-size: 24px;
     color: rgba(255, 255, 255, 0.65);
     line-height: 27px;
     margin: 0;
-    padding: 0;
-    padding-bottom: 120px; }
+    padding: 0 0 120px; }
   .blog-header div.attribution {
     margin-bottom: 15px;
     color: rgba(255, 255, 255, 0.65);
@@ -104,25 +102,19 @@ h1, h2, h3, h4, h5, h6 {
 .blog article h1, .blog article h2, .blog article h3, .blog article h4, .blog article h5, .blog article h6, .blog article p, .blog article ol, .blog article ul, .blog article table, .blog article blockquote, .blog header#page_header, .blog figure.kudo {
   padding-left: 10px;
   padding-right: 10px;
-  margin: 0 auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px auto;
   max-width: 600px;
   color: #4d4d4d; }
 .blog .comments {
   padding-left: 10px;
   padding-right: 10px;
-  margin: 0 auto;
-  margin-top: 30px;
-  margin-bottom: 20px;
+  margin: 30px auto 20px;
   max-width: 600px;
   color: #4d4d4d; }
 .blog .blog-break {
   padding-left: 10px;
   padding-right: 10px;
-  margin: 0 auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin: 30px auto;
   max-width: 600px; }
 .blog .blog-aside {
   background-color: #77BC1F; }
@@ -179,7 +171,7 @@ h1, h2, h3, h4, h5, h6 {
       width: 100%;
       display: block; } }
 .what-we-do {
-  font-family: "ff-din-web", ff-din-medium, sans-serif; }
+  font-family: "ff-din-web", sans-serif; }
   .what-we-do .find-out {
     margin-top: 20px; }
     .what-we-do .find-out .btn-outline {
@@ -192,7 +184,7 @@ h1, h2, h3, h4, h5, h6 {
 .btn-outline {
   background-color: transparent;
   border-radius: 6px;
-  font: 16px "ff-din-web", ff-din-medium, sans-serif;
+  font: 16px "ff-din-web", sans-serif;
   padding-left: 20px;
   padding-right: 20px;
   text-align: center;
@@ -274,13 +266,7 @@ body.dark {
   width: 100%; }
 
 .section.circuit {
-  background-color: FFF;
-  /*Default bg, similar to the background's base color*/
-  background-image: url("/images/Circuit.png");
-  background-position: right bottom;
-  /*Positioning*/
-  background-repeat: no-repeat;
-  /*Prevent showing multiple background images*/
+  background: FFF url("/images/Circuit.png") no-repeat right bottom;
   background-size: 23% auto; }
 
 .section {
@@ -302,10 +288,7 @@ body.dark {
 
 .footer {
   font-size: 14px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 30px;
   text-align: left; }
   .footer img {
     display: inline-block;
@@ -327,7 +310,7 @@ blockquote {
   border-left: 8px solid #EEE; }
 
 .big {
-  font: "ff-din-web", ff-din-medium, sans-serif;
+  font: "ff-din-web", sans-serif;
   font-size: 46px;
   letter-spacing: 2px;
   white-space: nowrap;
@@ -381,7 +364,7 @@ blockquote {
   height: 60px; }
 
 .navbar-default {
-  font: 14px "ff-din-web", ff-din-medium, sans-serif;
+  font: 14px "ff-din-web", sans-serif;
   border-color: transparent; }
 
 .navbar-default.dark {
@@ -499,14 +482,13 @@ label {
   margin-bottom: 5px;
   font-weight: 500;
   font-size: 18px;
-  font-family: "ff-din-web", ff-din-medium, sans-serif; }
+  font-family: "ff-din-web", sans-serif; }
 
 .form-control {
   display: block;
   width: 100%;
   height: 34px;
-  padding: 6px 12px;
-  padding-left: 6px;
+  padding: 6px 12px 6px 6px;
   font-size: 14px;
   line-height: 1.42857143;
   border-radius: 2px;
@@ -692,11 +674,8 @@ textarea, input {
     background-color: #77bc1f;
     line-height: 1.1em;
     color: #FFF;
-    padding-left: 30px;
-    padding-right: 30px;
     margin-bottom: 0px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding: 10px 30px;
     margin-top: 0; }
   .team .member-row .member small {
     display: block;
