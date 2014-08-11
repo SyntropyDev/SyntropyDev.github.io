@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  "So You Have an App Idea? Part 1"
-subtitle: "What to do with your next great idea."
+subtitle: "What to do with your next great idea"
 
 quote: "He that would perfect his work must first sharpen his tools."
 quote_source: "Confucius"
 
 image_author: "Johan Larsson"
 image_source: "https://www.flickr.com/photos/johanl/8348989885"
-image_url: "/images/blog/8348989885_704a1af7ae_o.jpg"
+image_url: "/images/blog/8348989885_704a1af7ae_o.png"
 
 author: Sam McLaughlin
 
@@ -18,11 +18,16 @@ tags: apps lean startup idea series
 The flash of inspiration has struck. You've found your great idea for an app or website. Now what? Over the course of our 3-part "So You Have an App Idea" series we'll cover how to evaluate, implement, and learn from your ideas to help you build the next great thing. First up: how to evaluate and refine your idea.
 
 ##Define your goals
-It may seem obvious, but people often don't define what they want until the project is already underway. Knowing what you hope to achieve is the first step to achieving it. Here's some starting points to get you thinking about your goals. 
+It may seem obvious, but people often don't define what they want until the project is already underway. It may sound banal, but knowing what you want to build really is the first step toward building it. Here's some starting points to get you thinking about your goals.
 
-Are you looking to build a business or is it more of a side project? Are you attempting to fill a market need or creating a new market altogether? Are you building a product for others to use, or scratching your own itch? Does it need to be done tomorrow, or can it wait a few months?
+* Are you looking to bootstrap the idea into a business or is it more of a side project? 
+* Are you attempting to fill a market need or creating a new market altogether? 
+* Are you building a product for others to use, or scratching your own itch? 
+* Does it need to be built tomorrow, or can it wait a few months?
 
-Try to be realistic about what you need versus things that are nice to have. For example, everyone wants their project done tomorrow, but those that keep a more realistic timeline typically get higher quality work while keeping their options open.
+{% include image.html url="/images/blog/0801xl2.jpg"  description="Scope, schedule and cost are three competing components when building software." %}
+
+Try to be realistic about what you need versus things that are nice to have. For example, everyone wants their project done tomorrow, but those that keep a more tempered pace typically get higher quality work done for less.
 
 ##Take inventory
 Building software isn't easy, it takes time, money, and effort. Think about how much you're realistically able and willing to commit. Keep in mind, there's no right or wrong answer – these questions are just to help put things in perspective.
