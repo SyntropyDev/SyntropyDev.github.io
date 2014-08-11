@@ -401,7 +401,8 @@ blockquote {
     background-color: rgba(59, 59, 62, 0.65); }
 
   .navbar-nav > li > a {
-    font-size: 14px; }
+    font-size: 14px;
+    width: 48px; }
 
   .navbar-nav > li > a.nav-page-Contact {
     border: 0px solid transparent;
