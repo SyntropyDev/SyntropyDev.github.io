@@ -400,12 +400,19 @@ blockquote {
   .navbar-default.dark {
     background-color: rgba(59, 59, 62, 0.65); }
 
+  .navbar-nav > li {
+    padding-top: 0px;
+    padding-bottom: 0px; }
+
   .navbar-nav > li > a {
-    font-size: 14px;
-    width: 48px; }
+    font-size: 16px;
+    min-width: 48px;
+    line-height: 48px;
+    padding-top: 10px;
+    padding-bottom: 10px; }
 
   .navbar-nav > li > a.nav-page-Contact {
-    border: 0px solid transparent;
+    border: 1px solid transparent;
     color: #77bc1f;
     border-radius: 4px; } }
 .dark .navbar-default .navbar-nav > li > a {
