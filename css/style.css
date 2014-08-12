@@ -1,7 +1,7 @@
 html, body {
   font: 14px "proxima-nova", Helvetica, sans-serif;
   font-weight: 300;
-  color: #333333;
+  color: #5f6a7d;
   background-color: #8a8a8d;
   min-height: 100%;
   height: 100%; }
@@ -14,14 +14,12 @@ h1, h2, h3, h4, h5, h6 {
 .hero-pitch {
   position: relative;
   color: white;
-  background: url("/images/Hero%20Container@0.5x.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   height: auto;
-  width: 100%;
-  border-bottom: 8px solid #77bc1f; }
+  width: 100%; }
 
 .blog-header {
   position: relative;
@@ -141,45 +139,49 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 25px;
   margin-bottom: 25px; }
 
-@media (min-width: 1200px) {
-  .what-we-do {
-    float: left;
-    padding-top: 160px;
-    padding-bottom: 160px;
-    font-size: 64px;
-    line-height: 74px;
-    text-align: left; }
-    .what-we-do .btn-outline {
-      width: 140px; } }
-@media (max-width: 1200px) {
-  .what-we-do {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    font-size: 60px;
-    line-height: 70px;
-    text-align: left; }
-    .what-we-do .btn-outline {
-      width: 140px; } }
-@media (max-width: 768px) {
-  .what-we-do {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    font-size: 40px;
-    line-height: 50px;
-    text-align: center; }
-    .what-we-do .btn-outline {
-      width: 100%;
-      display: block; } }
+.what-we-do {
+  float: left;
+  padding-top: 60px;
+  padding-bottom: 90px;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left; }
+  .what-we-do .btn-outline {
+    width: 140px; }
+
 .what-we-do {
   font-family: "ff-din-web", sans-serif; }
-  .what-we-do .find-out {
+  .what-we-do .btn-outline {
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.9); }
+  .what-we-do .btn-outline:hover {
+    color: #fff;
+    border: 1px solid #FFF; }
+  .what-we-do .learn-more {
     margin-top: 20px; }
-    .what-we-do .find-out .btn-outline {
-      border: 1px solid rgba(255, 255, 255, 0.6);
-      color: rgba(255, 255, 255, 0.9); }
-    .what-we-do .find-out .btn-outline:hover {
-      color: #fff;
-      border: 1px solid #FFF; }
+
+.what-we-do-examples {
+  margin-top: 20px;
+  line-height: 24px; }
+  .what-we-do-examples a.example {
+    color: #a9e858;
+    margin-right: 20px; }
+  .what-we-do-examples a.example:hover {
+    color: #8BBF49; }
+
+a.example {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  vertical-align: middle;
+  transition: all .2s ease-in-out 0; }
+  a.example i {
+    font-weight: 400;
+    font-size: 10px;
+    vertical-align: middle; }
+
+a.example:hover {
+  text-decoration: none; }
 
 .btn-outline {
   background-color: transparent;
@@ -223,12 +225,10 @@ h1, h2, h3, h4, h5, h6 {
 .what-we-do-detail {
   font-family: "proxima-nova", Helvetica, sans-serif;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 16px;
   color: white;
-  line-height: 32px;
+  line-height: 18px;
   margin-bottom: 20px; }
-  .what-we-do-detail a {
-    color: #a9e858; }
 
 body.light {
   background-color: white; }
@@ -265,26 +265,37 @@ body.dark {
   height: auto;
   width: 100%; }
 
+.pitch h2 {
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center; }
+
 .section.circuit {
   background: FFF url("/images/Circuit.png") no-repeat right bottom;
   background-size: 23% auto; }
 
 .section {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
-  line-height: 32px;
+  line-height: 28px;
   color: #636F70;
   padding-top: 60px;
   padding-bottom: 60px;
   margin-top: 0px;
   margin-bottom: 0px; }
   .section h1 {
-    font-size: 50px;
-    color: #3b3b3e; }
+    font-size: 28px;
+    line-height: 32px;
+    margin-top: 0px;
+    color: #3b3b3e;
+    text-align: center; }
   .section .heading {
     text-align: center;
-    margin-bottom: 30px;
-    margin-top: 30px; }
+    margin: 0 auto;
+    max-width: 700px; }
 
 .footer {
   font-size: 14px;
@@ -693,3 +704,13 @@ textarea, input {
     display: none !important;
     font-size: 16px;
     line-height: 28px; }
+
+.announcement {
+  text-align: center;
+  background-color: #F0F0F0;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0; }
+  .announcement .news {
+    margin: 15px 0 15px; }
+    .announcement .news i {
+      color: #77bc1f; }
