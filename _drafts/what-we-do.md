@@ -31,7 +31,10 @@ Less paperwork means more time spent on things that matter. We can automate away
 ### Products
 We know what it takes to make great apps. Whether you want to extend a current product, or create an new one altogether, we can help.
 
-Having a great idea is only half the battle. We know what it takes to make great software and we love to help individuals and businesses bring their ideas for apps and websites to market
+Having a great idea is only half the battle. We know what it takes to make great software and we love to help individuals and businesses bring their ideas for apps and websites to market.
+
+# Automate Paperwork
+## 
 
 
 
