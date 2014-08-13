@@ -259,6 +259,39 @@ only screen and (min-resolution                        : 2dppx) {
   }
 
 }
+a.btn-contact:hover{
+
+  background-color: #5A8F17;
+
+  color      : rgba(255, 255, 255, 1);
+  border:1px solid transparent;
+
+}
+
+a.btn-contact{
+
+  color      : rgba(255, 255, 255, 1);
+  border:1px solid transparent;
+  background-color: $green;
+
+
+  border-radius: 4px;
+  letter-spacing: 0px;
+  line-height: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all .2s ease-in-out 0;
+  vertical-align: baseline;
+  font-family: "ff-din-web", sans-serif;
+  font-weight: 700;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: always;
+  text-rendering: optimizeLegibility;
+
+}
 
 .what-we-do-examples{
   margin-top:20px;
