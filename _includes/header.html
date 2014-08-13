@@ -14,6 +14,10 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
+        <li><a href="/">Home</a></li>
+        <li><a href="http://blog.syntropydev.com">Blog <i class="fa fa-external"></i> </a></li>
+
+
         {% assign sorted_pages = site.pages | sort:"rank" %}
 
         {% for page in sorted_pages%}
@@ -23,6 +27,7 @@
         {% endif %}
 
         {% endfor %}
+
 
       </ul>
     </div><!-- /.navbar-collapse -->

@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 20px;
   margin-bottom: 20px;
   font-family: 'proxima-nova','Helvetica','Avenir','Arial',sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   color: #4d4d4d; }
 .blog article ul li {
   font-size: 16px;
@@ -250,6 +250,11 @@ body.dark {
   .section.light h1 {
     color: #3b3b3e; }
 
+.section.light.light-alternate {
+  background-color: #FAFAFA;
+  border-top: 1px solid #E0E0E0;
+  border-bottom: 1px solid #E0E0E0; }
+
 .section.dark {
   color: #EEE;
   background-color: #3b3b3e; }
@@ -272,6 +277,13 @@ body.dark {
   text-transform: uppercase;
   font-weight: bold;
   text-align: center; }
+.pitch h3 {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center; }
 
 .section.circuit {
   background: FFF url("/images/Circuit.png") no-repeat right bottom;
@@ -279,7 +291,7 @@ body.dark {
 
 .section {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 300;
   line-height: 28px;
   color: #636F70;
   padding-top: 60px;
@@ -706,11 +718,45 @@ textarea, input {
     line-height: 28px; }
 
 .announcement {
-  text-align: center;
-  background-color: #F0F0F0;
+  background-color: #FAFAFA;
   border-top: 1px solid #e0e0e0;
   border-bottom: 1px solid #e0e0e0; }
   .announcement .news {
+    text-align: center;
     margin: 15px 0 15px; }
     .announcement .news i {
       color: #77bc1f; }
+  .announcement .contents {
+    font: "ff-din-web", sans-serif;
+    text-align: left;
+    margin: 15px 0 15px; }
+    .announcement .contents a {
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      text-decoration: none;
+      color: #5f6a7d;
+      margin-right: 20px; }
+    .announcement .contents a:hover {
+      color: #77bc1f; }
+
+#strategies h2 {
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  font-weight: normal;
+  text-align: left; }
+#strategies h4 {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 5px;
+  text-transform: none;
+  font-weight: bold;
+  text-align: left; }
+#strategies p {
+  padding-right: 20px;
+  padding-bottom: 20px;
+  font-size: 16px;
+  font-weight: 300; }
