@@ -1083,12 +1083,25 @@ textarea, input { outline: none; }
   }
 }
 
+#straticon{
+  width: 256px;
+  height: 256px;
+}
+
 .iconic * {
+  fill: $grey;
+  stroke: $grey;
+}
+
+.iconic-property-accent {
   fill: $green;
   stroke: $green;
 }
 
-.iconic-property-accent {
-  fill: $grey;
-  stroke: $grey;
+
+#straticon-container{
+  color:$green;
+  font-size: 250px;
+  margin-top:75px;
+  text-align: center;
 }

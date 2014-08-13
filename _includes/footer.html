@@ -121,5 +121,27 @@
   ga('send', 'pageview');
 </script>
 
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<link href="/lib/animate.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="/lib/jquery.appear.js"></script>
+<script type="text/javascript" src="/lib/iconic.min.js"></script>
+
+
+
+<script>
+  $(function() {
+
+    function animateIcons(event){
+      if($("#straticon-container").offset().top < $(window).scrollTop() + $(window).outerHeight()) {
+        $('#straticon').addClass('animated fadeIn');
+        return true;
+      } else {
+        return false;
+      }
+    }
+
+    $(window).scroll(animateIcons);
+
+  });
+</script>

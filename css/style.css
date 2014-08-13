@@ -761,10 +761,20 @@ textarea, input {
   font-size: 16px;
   font-weight: 300; }
 
+#straticon {
+  width: 256px;
+  height: 256px; }
+
 .iconic * {
+  fill: #8a8a8d;
+  stroke: #8a8a8d; }
+
+.iconic-property-accent {
   fill: #77bc1f;
   stroke: #77bc1f; }
 
-.iconic-property-accent {
-  fill: #8a8a8d;
-  stroke: #8a8a8d; }
+#straticon-container {
+  color: #77bc1f;
+  font-size: 250px;
+  margin-top: 75px;
+  text-align: center; }
