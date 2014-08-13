@@ -1082,3 +1082,13 @@ textarea, input { outline: none; }
 
   }
 }
+
+.iconic * {
+  fill: $green;
+  stroke: $green;
+}
+
+.iconic-property-accent {
+  fill: $grey;
+  stroke: $grey;
+}

@@ -760,3 +760,11 @@ textarea, input {
   padding-bottom: 20px;
   font-size: 16px;
   font-weight: 300; }
+
+.iconic * {
+  fill: #77bc1f;
+  stroke: #77bc1f; }
+
+.iconic-property-accent {
+  fill: #8a8a8d;
+  stroke: #8a8a8d; }
