@@ -1133,55 +1133,81 @@ textarea, input { outline: none; }
 
 
 .iconic-server-chasis-top-light{
-  fill: $green;
-  stroke: $green;
+  fill: $grey;
+  stroke: $grey;
 
-  transition: none;
-  -webkit-transition: none;
+  animation: blink-1 2s 0.5s infinite;
+  -webkit-animation: blink-1 2s 0.5s infinite;
 
-  animation: blink .3s steps(2) infinite alternate;
-  -webkit-animation: blink .3s steps(2) infinite alternate;
-}
+  transition-timing-function: step-end;
+  -webkit-transition-timing-function: step-end;
+  animation-timing-function: step-end;
+  -webkit-animation-timing-function: step-end;
 
-.iconic-server-chasis-middle-light{
-  fill: $green;
-  stroke: $green;
-
-  transition: none;
-  -webkit-transition: none;
-
-  animation: blink .45s steps(2) infinite alternate;
-  -webkit-animation: blink .45s steps(2) infinite alternate;
 }
 
 .iconic-server-chasis-bottom-light{
-  fill: $green;
-  stroke: $green;
+  fill: $grey;
+  stroke: $grey;
 
-  transition: none;
-  -webkit-transition: none;
+  animation: blink-1 2.5s 1s infinite;
+  -webkit-animation: blink-1 2.5s 1s infinite;
 
-  animation: blink .6s steps(2) infinite alternate;
-  -webkit-animation: blink .6s steps(2) infinite alternate;
+  transition-timing-function: step-end;
+  -webkit-transition-timing-function: step-end;
+  animation-timing-function: step-end;
+  -webkit-animation-timing-function: step-end;
 
 }
 
-@keyframes blink {
-  from {
-    fill: $grey;
-  }
-  to {
-    fill: $green;
-  }
+.iconic-server-chasis-middle-light{
+  fill: $grey;
+  stroke: $grey;
+
+  animation: blink-3 3.2s 2s infinite;
+  -webkit-animation: blink-3 3.2s 2s infinite;
+
+  transition-timing-function: step-end;
+  -webkit-transition-timing-function: step-end;
+  animation-timing-function: step-end;
+  -webkit-animation-timing-function: step-end;
+
 }
 
-@-webkit-keyframes blink {
-  from {
-    fill: $grey;
-  }
-  to {
-    fill: $green;
-  }
+@keyframes blink-1 {
+  0% {fill: $grey;}
+  12.5% {fill: $green;}
+  25% {fill: $grey;}
+  100% {fill: $grey;}
+}
+
+@-webkit-keyframes blink-1 {
+  0% {fill: $grey;}
+  12.5% {fill: $green;}
+  25% {fill: $grey;}
+  100% {fill: $grey;}
+}
+
+@keyframes blink-3 {
+  0% {fill: $grey;}
+  12.5% {fill: $green;}
+  15% {fill: $grey;}
+  17.5% {fill: $green;}
+  20% {fill: $grey;}
+  22.5% {fill: $green;}
+  25% {fill: $grey;}
+  100% {fill: $grey;}
+}
+
+@-webkit-keyframes blink-3 {
+  0% {fill: $grey;}
+  12.5% {fill: $green;}
+  15% {fill: $grey;}
+  17.5% {fill: $green;}
+  20% {fill: $grey;}
+  22.5% {fill: $green;}
+  25% {fill: $grey;}
+  100% {fill: $grey;}
 }
 
 

@@ -799,41 +799,107 @@ textarea, input {
   stroke: #77bc1f; }
 
 .iconic-server-chasis-top-light {
-  fill: #77bc1f;
-  stroke: #77bc1f;
-  transition: none;
-  -webkit-transition: none;
-  animation: blink 0.3s steps(2) infinite alternate;
-  -webkit-animation: blink 0.3s steps(2) infinite alternate; }
-
-.iconic-server-chasis-middle-light {
-  fill: #77bc1f;
-  stroke: #77bc1f;
-  transition: none;
-  -webkit-transition: none;
-  animation: blink 0.45s steps(2) infinite alternate;
-  -webkit-animation: blink 0.45s steps(2) infinite alternate; }
+  fill: #8a8a8d;
+  stroke: #8a8a8d;
+  animation: blink-1 2s 0.5s infinite;
+  -webkit-animation: blink-1 2s 0.5s infinite;
+  transition-timing-function: step-end;
+  -webkit-transition-timing-function: step-end;
+  animation-timing-function: step-end;
+  -webkit-animation-timing-function: step-end; }
 
 .iconic-server-chasis-bottom-light {
-  fill: #77bc1f;
-  stroke: #77bc1f;
-  transition: none;
-  -webkit-transition: none;
-  animation: blink 0.6s steps(2) infinite alternate;
-  -webkit-animation: blink 0.6s steps(2) infinite alternate; }
+  fill: #8a8a8d;
+  stroke: #8a8a8d;
+  animation: blink-1 2.5s 1s infinite;
+  -webkit-animation: blink-1 2.5s 1s infinite;
+  transition-timing-function: step-end;
+  -webkit-transition-timing-function: step-end;
+  animation-timing-function: step-end;
+  -webkit-animation-timing-function: step-end; }
 
-@keyframes blink {
-  from {
+.iconic-server-chasis-middle-light {
+  fill: #8a8a8d;
+  stroke: #8a8a8d;
+  animation: blink-3 3.2s 2s infinite;
+  -webkit-animation: blink-3 3.2s 2s infinite;
+  transition-timing-function: step-end;
+  -webkit-transition-timing-function: step-end;
+  animation-timing-function: step-end;
+  -webkit-animation-timing-function: step-end; }
+
+@keyframes blink-1 {
+  0% {
     fill: #8a8a8d; }
 
-  to {
-    fill: #77bc1f; } }
-@-webkit-keyframes blink {
-  from {
+  12.5% {
+    fill: #77bc1f; }
+
+  25% {
     fill: #8a8a8d; }
 
-  to {
-    fill: #77bc1f; } }
+  100% {
+    fill: #8a8a8d; } }
+@-webkit-keyframes blink-1 {
+  0% {
+    fill: #8a8a8d; }
+
+  12.5% {
+    fill: #77bc1f; }
+
+  25% {
+    fill: #8a8a8d; }
+
+  100% {
+    fill: #8a8a8d; } }
+@keyframes blink-3 {
+  0% {
+    fill: #8a8a8d; }
+
+  12.5% {
+    fill: #77bc1f; }
+
+  15% {
+    fill: #8a8a8d; }
+
+  17.5% {
+    fill: #77bc1f; }
+
+  20% {
+    fill: #8a8a8d; }
+
+  22.5% {
+    fill: #77bc1f; }
+
+  25% {
+    fill: #8a8a8d; }
+
+  100% {
+    fill: #8a8a8d; } }
+@-webkit-keyframes blink-3 {
+  0% {
+    fill: #8a8a8d; }
+
+  12.5% {
+    fill: #77bc1f; }
+
+  15% {
+    fill: #8a8a8d; }
+
+  17.5% {
+    fill: #77bc1f; }
+
+  20% {
+    fill: #8a8a8d; }
+
+  22.5% {
+    fill: #77bc1f; }
+
+  25% {
+    fill: #8a8a8d; }
+
+  100% {
+    fill: #8a8a8d; } }
 #straticon-container {
   color: #77bc1f;
   font-size: 250px;
