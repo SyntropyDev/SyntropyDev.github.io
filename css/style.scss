@@ -1132,6 +1132,59 @@ textarea, input { outline: none; }
 }
 
 
+.iconic-server-chasis-top-light{
+  fill: $green;
+  stroke: $green;
+
+  transition: none;
+  -webkit-transition: none;
+
+  animation: blink .3s steps(2) infinite alternate;
+  -webkit-animation: blink .3s steps(2) infinite alternate;
+}
+
+.iconic-server-chasis-middle-light{
+  fill: $green;
+  stroke: $green;
+
+  transition: none;
+  -webkit-transition: none;
+
+  animation: blink .45s steps(2) infinite alternate;
+  -webkit-animation: blink .45s steps(2) infinite alternate;
+}
+
+.iconic-server-chasis-bottom-light{
+  fill: $green;
+  stroke: $green;
+
+  transition: none;
+  -webkit-transition: none;
+
+  animation: blink .6s steps(2) infinite alternate;
+  -webkit-animation: blink .6s steps(2) infinite alternate;
+
+}
+
+@keyframes blink {
+  from {
+    fill: $grey;
+  }
+  to {
+    fill: $green;
+  }
+}
+
+@-webkit-keyframes blink {
+  from {
+    fill: $grey;
+  }
+  to {
+    fill: $green;
+  }
+}
+
+
 #straticon-container{
   color:$green;
   font-size: 250px;

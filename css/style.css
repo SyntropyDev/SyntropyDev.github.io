@@ -798,6 +798,42 @@ textarea, input {
   fill: #77bc1f;
   stroke: #77bc1f; }
 
+.iconic-server-chasis-top-light {
+  fill: #77bc1f;
+  stroke: #77bc1f;
+  transition: none;
+  -webkit-transition: none;
+  animation: blink 0.3s steps(2) infinite alternate;
+  -webkit-animation: blink 0.3s steps(2) infinite alternate; }
+
+.iconic-server-chasis-middle-light {
+  fill: #77bc1f;
+  stroke: #77bc1f;
+  transition: none;
+  -webkit-transition: none;
+  animation: blink 0.45s steps(2) infinite alternate;
+  -webkit-animation: blink 0.45s steps(2) infinite alternate; }
+
+.iconic-server-chasis-bottom-light {
+  fill: #77bc1f;
+  stroke: #77bc1f;
+  transition: none;
+  -webkit-transition: none;
+  animation: blink 0.6s steps(2) infinite alternate;
+  -webkit-animation: blink 0.6s steps(2) infinite alternate; }
+
+@keyframes blink {
+  from {
+    fill: #8a8a8d; }
+
+  to {
+    fill: #77bc1f; } }
+@-webkit-keyframes blink {
+  from {
+    fill: #8a8a8d; }
+
+  to {
+    fill: #77bc1f; } }
 #straticon-container {
   color: #77bc1f;
   font-size: 250px;
