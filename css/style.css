@@ -153,7 +153,17 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "ff-din-web", sans-serif; }
   .what-we-do .btn-outline {
     border: 1px solid rgba(255, 255, 255, 0.6);
-    color: rgba(255, 255, 255, 0.9); }
+    color: rgba(255, 255, 255, 0.9);
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    white-space: nowrap;
+    text-decoration: none !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: always;
+    text-rendering: optimizeLegibility; }
   .what-we-do .btn-outline:hover {
     color: #fff;
     border: 1px solid #FFF; }
@@ -343,7 +353,7 @@ body.dark {
     vertical-align: 0%;
     margin-right: 15px; }
   .footer .copyright {
-    padding-top: 30px;
+    padding-top: 10px;
     float: right; }
 
 .img-responsive {
@@ -431,7 +441,17 @@ blockquote {
 .navbar-nav > li > a {
   padding-top: 0px;
   padding-bottom: 0px;
-  line-height: 35px; }
+  line-height: 35px;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  white-space: nowrap;
+  text-decoration: none !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: always;
+  text-rendering: optimizeLegibility; }
 
 .navbar-nav > li > a.nav-page-Contact:hover {
   border: 1px solid transparent;
@@ -577,8 +597,9 @@ textarea, input {
   color: #FFFEFD;
   border-bottom: 2px solid #77bc1f;
   padding-bottom: 5px;
-  margin-right: 30px;
-  margin-bottom: 30px; }
+  margin-right: 0px;
+  margin-bottom: 30px;
+  margin-top: 0px; }
 
 .footer h5, .footer h6 {
   color: #FFFEFD;
