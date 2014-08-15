@@ -10,11 +10,11 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "ff-din-web", sans-serif; }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  background: url("/images/Hero%20Container@0.5x.jpg") no-repeat center center; }
+  background: url("/images/Hero%20Container2@0.5x.jpg") no-repeat center center; }
 .hero-pitch {
   position: relative;
   color: white;
-  background: url(https://s3.amazonaws.com/ooomf-com-files/OSASuBX1SGu4kb3ozvne_IMG_1088.jpg) no-repeat bottom center fixed;
+  background: url("/images/Hero%20Container2@0.5x.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -456,7 +456,8 @@ blockquote {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-smoothing: always;
-  text-rendering: optimizeLegibility; }
+  text-rendering: optimizeLegibility;
+  color: #2e3b4e; }
 
 .navbar-nav > li > a.nav-page-Contact:hover {
   border: 1px solid transparent;
