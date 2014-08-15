@@ -9,12 +9,9 @@ html, body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "ff-din-web", sans-serif; }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  background: url("/images/Hero%20Container2@0.5x.jpg") no-repeat center center; }
 .hero-pitch {
   position: relative;
   color: white;
-  background: url("/images/Hero%20Container2@0.5x.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
