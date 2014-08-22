@@ -51,12 +51,11 @@ background-size: cover;
   background-size         : cover;
   height                  : auto;
   width                   : 100%;
-//  border-bottom: 8px solid $green;
   -webkit-font-smoothing: antialiased;
-
-  background: $dark-grey;
-  background: -webkit-radial-gradient(bottom center,circle, #4D4C54,$dark-grey);
-  background: radial-gradient(bottom center,circle, #4D4C54,$dark-grey);
+//
+//  background: $dark-grey;
+  background: -webkit-radial-gradient(bottom left,circle, #4D4C54,$dark-grey);
+  background: radial-gradient(bottom left,circle, #4D4C54,$dark-grey);
 }
 
 

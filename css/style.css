@@ -23,9 +23,8 @@ h1, h2, h3, h4, h5, h6 {
   height: auto;
   width: 100%;
   -webkit-font-smoothing: antialiased;
-  background: #3b3b3e;
-  background: -webkit-radial-gradient(bottom center, circle, #4d4c54, #3b3b3e);
-  background: radial-gradient(bottom center, circle, #4d4c54, #3b3b3e); }
+  background: -webkit-radial-gradient(bottom left, circle, #4d4c54, #3b3b3e);
+  background: radial-gradient(bottom left, circle, #4d4c54, #3b3b3e); }
 
 .blog-header {
   position: relative;
