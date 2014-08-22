@@ -52,13 +52,19 @@ background-size: cover;
   height                  : auto;
   width                   : 100%;
 //  border-bottom: 8px solid $green;
+  -webkit-font-smoothing: antialiased;
+
+  background: $dark-grey;
+  background: -webkit-radial-gradient(bottom center,circle, #4D4C54,$dark-grey);
+  background: radial-gradient(bottom center,circle, #4D4C54,$dark-grey);
 }
 
 
 
 .blog-header {
   position                : relative;
-  color                   : $off-white;
+//  color                   : $off-white;
+  color: rgb(248, 245, 240);
   background              : url("/images/blog/greenbank.jpg") no-repeat center center;
   -webkit-background-size : cover;
   -moz-background-size    : cover;
@@ -67,6 +73,7 @@ background-size: cover;
   height                  : auto;
   width                   : 100%;
   border-bottom: 8px solid $green;
+
 
   h1{
     font-family: $medium-font-stack;

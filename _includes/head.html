@@ -1,7 +1,7 @@
 <head>
-
-  <!--Chartbeat-->
-  <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+  <!--Styles-->
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
 
   <!--Responsive-->
   <meta name="viewport" content="initial-scale=1">
@@ -45,8 +45,4 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{{ site.description }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-
-  <!--Styles-->
-  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
 </head>

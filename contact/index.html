@@ -18,6 +18,18 @@ rank: 10
       <div class="col-md-5 col-sm-6">
         <h2 id="contact">Contact</h2>
 
+        <!--Use Segment.io to identify users from this contact form-->
+        <script>
+          //        analytics.identify('f4ca124298', {
+          //          name: '',
+          //          email: '',
+          //          message: ''
+          //        });
+
+//          analytics.track('Requested contact', {
+//          });
+        </script>
+
         <form method="{{site.contact_form_method}}" action="{{site.contact_form_action_url}}" role="form">
           <div class="row">
             <div class="col-sm-6">
@@ -47,6 +59,8 @@ rank: 10
 
         </form>
       </div>
+
+
 
       <div class="col-md-5 col-md-offset-2 col-sm-6">
         <h3 >More Info</h3>

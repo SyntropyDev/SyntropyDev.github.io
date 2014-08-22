@@ -21,11 +21,15 @@ h1, h2, h3, h4, h5, h6 {
   -o-background-size: cover;
   background-size: cover;
   height: auto;
-  width: 100%; }
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+  background: #3b3b3e;
+  background: -webkit-radial-gradient(bottom center, circle, #4d4c54, #3b3b3e);
+  background: radial-gradient(bottom center, circle, #4d4c54, #3b3b3e); }
 
 .blog-header {
   position: relative;
-  color: white;
+  color: #f8f5f0;
   background: url("/images/blog/greenbank.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;

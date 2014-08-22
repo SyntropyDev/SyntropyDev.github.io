@@ -1,5 +1,3 @@
-
-
 <footer class="footer dark">
   <div class="container">
     <div class="row">
@@ -55,7 +53,6 @@
       <div class="col-sm-3">
         <h4>Locations</h4>
 
-
         <h5 style="margin-top: 30px;">{{site.primary_location.name}}</h5>
         <address itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" style="display: inline-block; margin-bottom: 0px;">
           <span itemprop="streetAddress">{{site.primary_location.street}}</span><br/>
@@ -63,7 +60,6 @@
           <span itemprop="addressRegion">{{site.primary_location.state}}</span>
           <span itemprop="postalCode">{{site.primary_location.zip}}</span>
         </address>
-
 
         {% for location in site.other_locations %}
         <h5 style="margin-top: 30px;">{{ location.name }}</h5>
@@ -92,13 +88,16 @@
           {% endfor %}
         </ul>
       </div>
+
     </div>
+
     <div class="row">
       <div class="col-sm-12">
         <a itemprop="url" href="http://www.syntropydev.com"></a>
         <span class="copyright">&copy; <span itemprop="name">Syntropy</span> 2014</span>
       </div>
     </div>
+
   </div>
 </footer>
 
@@ -109,41 +108,8 @@
 <script type="text/javascript" src="//use.typekit.net/bkv3vpf.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
-<!--Google Analytics-->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-52254120-1', 'syntropydev.com');
-  ga('require', 'displayfeatures');
-  ga('send', 'pageview');
-</script>
-
-<!--Chartbeat-->
-<script type="text/javascript">
-  var _sf_async_config = { uid: 57102, domain: 'syntropydev.github.io', useCanonical: true };
-  (function() {
-    function loadChartbeat() {
-      window._sf_endpt = (new Date()).getTime();
-      var e = document.createElement('script');
-      e.setAttribute('language', 'javascript');
-      e.setAttribute('type', 'text/javascript');
-      e.setAttribute('src','//static.chartbeat.com/js/chartbeat.js');
-      document.body.appendChild(e);
-    };
-    var oldonload = window.onload;
-    window.onload = (typeof window.onload != 'function') ?
-        loadChartbeat : function() { oldonload(); loadChartbeat(); };
-  })();
-</script>
-
+<!--Scripts-->
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-<link href="/lib/animate.css" rel="stylesheet" type="text/css">
-<script type="text/javascript" src="/lib/iconic.min.js"></script>
-
 <!--Smooth scrolling-->
 <script>
   $(function() {
