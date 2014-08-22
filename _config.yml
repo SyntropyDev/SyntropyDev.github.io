@@ -1,9 +1,9 @@
 # Site settings
-title: Syntropy
+title: - Custom apps for your business
 email: contact@syntropy.io
 description: "
-  Syntropy is a software development company based in Morgantown, West Virginia that builds apps to help build your business.
-  We specialize in using web, iPhone, iPad and Android to connect with customers and automate business processes.
+    Automate your business and reach new customers with custom software from Syntropy. We help clients automate paperwork, launch products, measure business analytics and track assets with custom iOS, Android, and web applications.
+    Based in Morgantown, West Virginia.
   "
 
 baseurl: ""

@@ -5,9 +5,6 @@
   <!--Responsive-->
   <meta name="viewport" content="initial-scale=1">
 
-  <!--Styles-->
-  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
-
   <!--Favicon-->
   <link rel="shortcut icon" href="/icons/favicon.ico">
   <link rel="apple-touch-icon" sizes="57x57" href="/icons/apple-touch-icon-57x57.png">
@@ -27,29 +24,28 @@
   <meta name="msapplication-TileImage" content="/icons/mstile-144x144.png">
   <meta name="msapplication-config" content="/icons/browserconfig.xml">
 
-  <!--TODO: Update to fit the post-->
   <!--Twitter-->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@syntropydev">
-  <meta name="twitter:title" content="Syntropy">
-  <meta name="twitter:description" content="Syntropy specializes in using web, iOS and Android to connect with customers and automate business processes.">
+  <meta name="twitter:title" content="{{ site.title }}">
+  <meta name="twitter:description" content="{{ site.description }}">
   <meta name="twitter:creator" content="">
   <meta name="twitter:image:src" content="http://syntropydev.com/images/syntropy-logo@1x.png">
-  <meta name="twitter:domain" content="http://www.syntropydev.com">
+  <meta name="twitter:domain" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-  <!--TODO: Update to fit the post-->
   <!--Facebook-->
-  <meta property="og:title" content="Syntropy" />
+  <meta property="og:title" content="{{ site.title }}" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="http://www.syntropydev.com/" />
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
   <meta property="og:image" content="http://syntropydev.com/images/team/work.jpg" />
-  <meta property="og:description" content="Syntropy specializes in using web, iOS and Android to connect with customers and automate business processes." />
+  <meta property="og:description" content="{{ site.description }}" />
   <meta property="fb:admins" content="670616182" />
 
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{{ site.description }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
+  <!--Styles-->
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
 </head>
