@@ -43,11 +43,8 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-font-smoothing: antialiased; }
 
 .network-bg {
-  background: rgba(59, 59, 62, 0.8); }
+  background: rgba(59, 59, 62, 0.5); }
 
-@media only screen and (min-width: 1024px) {
-  .network-bg {
-    background: rgba(59, 59, 62, 0.2); } }
 .blog-header {
   position: relative;
   color: #f8f5f0;
@@ -847,9 +844,172 @@ textarea, input {
   fill: #77bc1f;
   stroke: #77bc1f; }
 
+.iconic-rss-alt-center {
+  fill: #77bc1f;
+  stroke: #77bc1f;
+  -webkit-animation-name: blinker-0;
+  -webkit-animation-duration: 6s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: blinker-0;
+  -moz-animation-duration: 6s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  animation-name: blinker-0;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; }
+
+.iconic-rss-alt-wave-inner {
+  fill: #77bc1f;
+  stroke: #77bc1f;
+  -webkit-animation-name: blinker-1;
+  -webkit-animation-duration: 6s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: blinker-1;
+  -moz-animation-duration: 6s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  animation-name: blinker-1;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; }
+
+.iconic-rss-alt-wave-outer {
+  fill: #77bc1f;
+  stroke: #77bc1f;
+  -webkit-animation-name: blinker-2;
+  -webkit-animation-duration: 6s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: blinker-2;
+  -moz-animation-duration: 6s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  animation-name: blinker-2;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; }
+
+@-moz-keyframes blinker-0 {
+  0% {
+    opacity: 0.0; }
+
+  25% {
+    opacity: 1.0; }
+
+  50% {
+    opacity: 1.0; }
+
+  100% {
+    opacity: 1.0; } }
+@-webkit-keyframes blinker-0 {
+  0% {
+    opacity: 0.0; }
+
+  25% {
+    opacity: 1.0; }
+
+  50% {
+    opacity: 1.0; }
+
+  100% {
+    opacity: 1.0; } }
+@keyframes blinker-0 {
+  0% {
+    opacity: 0.0; }
+
+  25% {
+    opacity: 1.0; }
+
+  50% {
+    opacity: 1.0; }
+
+  100% {
+    opacity: 1.0; } }
+@-moz-keyframes blinker-1 {
+  0% {
+    opacity: 0.0; }
+
+  25% {
+    opacity: 0.0; }
+
+  50% {
+    opacity: 1.0; }
+
+  100% {
+    opacity: 1.0; } }
+@-webkit-keyframes blinker-1 {
+  0% {
+    opacity: 0.0; }
+
+  25% {
+    opacity: 0.0; }
+
+  50% {
+    opacity: 1.0; }
+
+  100% {
+    opacity: 1.0; } }
+@keyframes blinker-1 {
+  0% {
+    opacity: 0.0; }
+
+  25% {
+    opacity: 0.0; }
+
+  50% {
+    opacity: 1.0; }
+
+  100% {
+    opacity: 1.0; } }
+@-moz-keyframes blinker-2 {
+  0% {
+    opacity: 0.0; }
+
+  25% {
+    opacity: 0.0; }
+
+  50% {
+    opacity: 0.0; }
+
+  75% {
+    opacity: 1.0; }
+
+  100% {
+    opacity: 1.0; } }
+@-webkit-keyframes blinker-2 {
+  0% {
+    opacity: 0.0; }
+
+  25% {
+    opacity: 0.0; }
+
+  50% {
+    opacity: 0.0; }
+
+  75% {
+    opacity: 1.0; }
+
+  100% {
+    opacity: 1.0; } }
+@keyframes blinker-2 {
+  0% {
+    opacity: 0.0; }
+
+  25% {
+    opacity: 0.0; }
+
+  50% {
+    opacity: 0.0; }
+
+  75% {
+    opacity: 1.0; }
+
+  100% {
+    opacity: 1.0; } }
 .iconic-server-chasis-top-light {
-  fill: #8a8a8d;
-  stroke: #8a8a8d;
   animation: blink-1 2s 0.5s infinite;
   -webkit-animation: blink-1 2s 0.5s infinite;
   transition-timing-function: step-end;
