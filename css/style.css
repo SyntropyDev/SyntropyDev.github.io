@@ -27,12 +27,6 @@ h1, h2, h3, h4, h5, h6 {
   background: -webkit-radial-gradient(bottom left, circle, #4d4c54, #3b3b3e);
   background: radial-gradient(bottom left, circle, #4d4c54, #3b3b3e); }
 
-@media only screen and (min-width: 1024px) {
-  .network-bg {
-    background-image: url("/images/Network.png");
-    background-position: bottom right;
-    background-size: 550px auto;
-    background-repeat: no-repeat; } }
 .blog-header {
   position: relative;
   color: #f8f5f0;
