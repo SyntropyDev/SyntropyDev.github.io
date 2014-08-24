@@ -22,11 +22,15 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   height: auto;
   width: 100%;
-  -webkit-font-smoothing: antialiased;
-  background: #3b3b3e;
-  background: -webkit-radial-gradient(bottom left, circle, #4d4c54, #3b3b3e);
-  background: radial-gradient(bottom left, circle, #4d4c54, #3b3b3e); }
+  background-image: url(/images/traffic.jpg);
+  background-position-x: left; }
 
+.network-bg {
+  background: rgba(59, 59, 62, 0.8); }
+
+@media only screen and (min-width: 1024px) {
+  .network-bg {
+    background: rgba(59, 59, 62, 0.2); } }
 .blog-header {
   position: relative;
   color: #f8f5f0;
