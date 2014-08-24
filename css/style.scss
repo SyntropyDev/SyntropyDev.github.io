@@ -1422,8 +1422,10 @@ $rss-duration: 6s;
 }
 
 div.section.pitch.blog-bg{
-  background-image: url('/images/greenbank-sliver.jpg');
   background-size: cover;
+  background-color: $dark-grey;
+  background-image: url('/images/greenbank-sliver.png');
+  background-size:cover;
 
   h1{
     color:#FFF;
@@ -1438,7 +1440,7 @@ div.section.pitch.blog-bg{
 
   .post{
     display: inline-block;
-    max-width: 30%;
+    max-width: 22%;
     margin-right: 3%;
     float:left;
     a{

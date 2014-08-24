@@ -1116,7 +1116,9 @@ textarea, input {
   text-align: center; }
 
 div.section.pitch.blog-bg {
-  background-image: url("/images/greenbank-sliver.jpg");
+  background-size: cover;
+  background-color: #3b3b3e;
+  background-image: url("/images/greenbank-sliver.png");
   background-size: cover; }
   div.section.pitch.blog-bg h1 {
     color: #FFF; }
@@ -1126,7 +1128,7 @@ div.section.pitch.blog-bg {
   -webkit-font-smoothing: antialiased; }
   .post-snippets .post {
     display: inline-block;
-    max-width: 30%;
+    max-width: 22%;
     margin-right: 3%;
     float: left; }
     .post-snippets .post a {
