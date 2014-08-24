@@ -55,12 +55,22 @@ background-size: cover;
   background: $dark-grey;
   background: -webkit-radial-gradient(bottom left,circle, #4D4C54,$dark-grey);
   background: radial-gradient(bottom left,circle, #4D4C54,$dark-grey);
-
-  background-position-x: left;
 }
 
 .hero-pitch.home{
   background-image:url(/images/traffic.jpg);
+  background-position-x: left;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-background-size : cover;
+  -moz-background-size    : cover;
+  -o-background-size      : cover;
+  background-size         : cover;
+  height                  : auto;
+  width                   : 100%;
+  -webkit-font-smoothing: antialiased;
 }
 
 //Meh.
