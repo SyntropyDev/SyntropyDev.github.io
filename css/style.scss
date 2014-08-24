@@ -454,6 +454,8 @@ body.dark {
 .footer.dark {
   color            : #EEE;
   background-color : rgba(59, 59, 62, 1);
+  -webkit-font-smoothing: antialiased;
+
 }
 
 .section.light {
@@ -1422,6 +1424,8 @@ $rss-duration: 6s;
 }
 
 div.section.pitch.blog-bg{
+  -webkit-font-smoothing: antialiased;
+
   background-size: cover;
   background-color: $dark-grey;
   background-image: url('/images/greenbank-sliver.png');

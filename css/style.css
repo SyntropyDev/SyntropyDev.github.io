@@ -301,7 +301,8 @@ body.dark {
 
 .footer.dark {
   color: #EEE;
-  background-color: #3b3b3e; }
+  background-color: #3b3b3e;
+  -webkit-font-smoothing: antialiased; }
 
 .section.light {
   color: #8a8a8d;
@@ -1116,6 +1117,7 @@ textarea, input {
   text-align: center; }
 
 div.section.pitch.blog-bg {
+  -webkit-font-smoothing: antialiased;
   background-size: cover;
   background-color: #3b3b3e;
   background-image: url("/images/greenbank-sliver.png");
