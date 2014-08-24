@@ -23,9 +23,16 @@ h1, h2, h3, h4, h5, h6 {
   height: auto;
   width: 100%;
   -webkit-font-smoothing: antialiased;
+  background: #3b3b3e;
   background: -webkit-radial-gradient(bottom left, circle, #4d4c54, #3b3b3e);
   background: radial-gradient(bottom left, circle, #4d4c54, #3b3b3e); }
 
+@media only screen and (min-width: 1024px) {
+  .network-bg {
+    background-image: url("/images/Network.png");
+    background-position: bottom right;
+    background-size: 550px auto;
+    background-repeat: no-repeat; } }
 .blog-header {
   position: relative;
   color: #f8f5f0;
@@ -933,8 +940,15 @@ textarea, input {
   margin-top: 75px;
   text-align: center; }
 
+div.section.pitch.blog-bg {
+  background-image: url("/images/greenbank-sliver.jpg");
+  background-size: cover; }
+  div.section.pitch.blog-bg h1 {
+    color: #FFF; }
+
 .post-snippets {
-  margin-top: 30px; }
+  margin-top: 30px;
+  -webkit-font-smoothing: antialiased; }
   .post-snippets .post {
     display: inline-block;
     max-width: 30%;
@@ -944,9 +958,10 @@ textarea, input {
       text-decoration: none;
       cursor: pointer; }
     .post-snippets .post a:hover {
-      text-decoration: underline;
+      text-decoration: none;
       cursor: pointer; }
     .post-snippets .post h4 {
+      color: #FFF;
       text-overflow: ellipsis;
       white-space: nowrap;
       overflow: hidden;
@@ -955,7 +970,7 @@ textarea, input {
       margin: 0;
       padding: 0; }
     .post-snippets .post p {
-      color: #8A8A8D;
+      color: #B3B3B3;
       text-overflow: ellipsis;
       white-space: nowrap;
       overflow: hidden;

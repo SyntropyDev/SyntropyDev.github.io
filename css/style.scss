@@ -39,7 +39,6 @@ only screen and (min-resolution                        : 2dppx) {
 .hero-pitch {
   position                : relative;
   color                   : $off-white;
- // background              : url("/images/Hero%20Container@0.5x.jpg") no-repeat center center;
 
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -52,12 +51,23 @@ background-size: cover;
   height                  : auto;
   width                   : 100%;
   -webkit-font-smoothing: antialiased;
-//
-//  background: $dark-grey;
+
+  background: $dark-grey;
   background: -webkit-radial-gradient(bottom left,circle, #4D4C54,$dark-grey);
   background: radial-gradient(bottom left,circle, #4D4C54,$dark-grey);
+
 }
 
+@media only screen and (min-width: 1024px) {
+
+  .network-bg {
+    background-image    : url("/images/Network.png");
+    background-position : bottom right;
+    background-size     : 550px auto;
+    background-repeat   : no-repeat;
+  }
+
+}
 
 
 .blog-header {
@@ -1252,25 +1262,38 @@ textarea, input { outline: none; }
   text-align: center;
 }
 
+div.section.pitch.blog-bg{
+  background-image: url('/images/greenbank-sliver.jpg');
+  background-size: cover;
+
+  h1{
+    color:#FFF;
+
+  }
+
+}
+
 .post-snippets{
   margin-top: 30px;
+  -webkit-font-smoothing: antialiased;
+
   .post{
     display: inline-block;
     max-width: 30%;
     margin-right: 3%;
     float:left;
-
     a{
       text-decoration: none;
       cursor : pointer;
     }
 
     a:hover{
-      text-decoration: underline;
+      text-decoration: none;
       cursor : pointer;
     }
 
     h4{
+      color:#FFF;
       text-overflow: ellipsis;
       white-space: nowrap;
       overflow: hidden;
@@ -1283,7 +1306,7 @@ textarea, input { outline: none; }
     }
 
     p{
-      color: #8A8A8D;
+      color: #B3B3B3;
       text-overflow: ellipsis;
       white-space: nowrap;
       overflow: hidden;
