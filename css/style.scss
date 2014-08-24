@@ -50,17 +50,17 @@ background-size: cover;
   background-size         : cover;
   height                  : auto;
   width                   : 100%;
-//  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
 
-//  background: $dark-grey;
-//  background: -webkit-radial-gradient(bottom left,circle, #4D4C54,$dark-grey);
-//  background: radial-gradient(bottom left,circle, #4D4C54,$dark-grey);
+  background: $dark-grey;
+  background: -webkit-radial-gradient(bottom left,circle, #4D4C54,$dark-grey);
+  background: radial-gradient(bottom left,circle, #4D4C54,$dark-grey);
 
-  //Different?
-//-webkit-radial-gradient(bottom left, circle, rgba(37, 37, 37, 1), #3B3B3E)
-  background-image:url(/images/traffic.jpg);
-//  background-size: cover;
   background-position-x: left;
+}
+
+.hero-pitch.home{
+  background-image:url(/images/traffic.jpg);
 }
 
 //Meh.
