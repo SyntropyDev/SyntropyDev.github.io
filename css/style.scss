@@ -255,6 +255,8 @@ background-size: cover;
   }
 }
 
+
+
 //@media (min-width : 1200px) {
   .what-we-do {
     float:left;
@@ -269,6 +271,31 @@ background-size: cover;
     }
   }
 //}
+
+@media (max-width: 768px){
+  .what-we-do {
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+
+  .navbar-toggle{
+    position: absolute;
+    left: 0px;
+    padding: 9px 10px;
+    margin-top: 12px;
+    margin-left: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
+
+
+  .container>.navbar-header{
+    text-align: center;
+  }
+}
 
 .what-we-do {
   font-family : $medium-font-stack;
@@ -605,6 +632,7 @@ blockquote {
   height  : $nav-height;
 }
 
+
 @-webkit-keyframes spin {
   0% {
     -webkit-transform : rotate(360deg);
@@ -708,7 +736,7 @@ blockquote {
 
 @media (max-width : 768px) {
   .navbar-default.dark{
-    background-color: rgba(59, 59, 62, 0.65);
+//    background-color: rgba(59, 59, 62, 0.65);
   }
 
   .navbar-nav > li {
@@ -756,19 +784,6 @@ blockquote {
 
 .navbar-default.light .navbar-toggle .icon-bar {
   background-color: rgba(59, 59, 62, 0.8);
-}
-
-.navbar-toggle {
-  position: relative;
-  float: right;
-  padding: 9px 10px;
-  margin-top: 12px;
-  margin-right: 15px;
-  margin-bottom: 8px;
-  background-color: transparent;
-  background-image: none;
-  border: 1px solid transparent;
-  border-radius: 4px;
 }
 
 .section-title {
@@ -992,7 +1007,7 @@ textarea, input { outline: none; }
   }
 
   .navbar-default.dark .navbar-toggle {
-    border-color: rgba(255, 255, 255, 0.25);
+    border-color: rgba(255, 255, 255, 0.0);
   }
 
   .navbar-default.dark .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
@@ -1001,7 +1016,7 @@ textarea, input { outline: none; }
 
 
   .navbar-default.light .navbar-toggle {
-    border-color: rgba(59, 59, 62, 0.25);
+    border-color: rgba(59, 59, 62, 0.0);
   }
 
   .navbar-default.light .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
@@ -1438,15 +1453,24 @@ div.section.pitch.blog-bg{
 
 }
 
+
+
 .post-snippets{
   margin-top: 30px;
   -webkit-font-smoothing: antialiased;
 
+
+
+  .post.read-more{
+    line-height: 3em;
+  }
+
   .post{
-    display: inline-block;
-    max-width: 22%;
-    margin-right: 3%;
+    display: block;
+    width: 100%;
     float:left;
+    padding-bottom: 10px;
+
     a{
       text-decoration: none;
       cursor : pointer;
@@ -1487,5 +1511,18 @@ div.section.pitch.blog-bg{
     }
   }
 
+
+  @media only screen and (min-width: 767px) {
+    .post{
+      display: inline-block;
+      max-width: 22%;
+      margin-right: 3%;
+      padding-bottom: 0px;
+    }
+
+    .post.read-more > a > h4{
+      text-align: right;
+    }
+  }
 }
 
