@@ -8212,6 +8212,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 62, ../scss/_navbar.scss */
 .nav-links li {
   display: inline-block;
+  float: left;
 }
 /* line 65, ../scss/_navbar.scss */
 .nav-links li a {
@@ -8239,30 +8240,20 @@ h1, h2, h3, h4, h5, h6 {
 .nav-links li a:last-child {
   border-right: 0px solid #4d4d4d;
 }
-
-/* line 99, ../scss/_navbar.scss */
-.navbar-nav > li > a.nav-page-Contact:hover {
-  border: 1px solid transparent;
+/* line 100, ../scss/_navbar.scss */
+.nav-links li a.nav-page-Contact {
   background-color: #77BC1F;
-  border-radius: 4px;
   color: white;
 }
 
-/* line 106, ../scss/_navbar.scss */
-.navbar-nav > li > a.nav-page-Contact {
-  border: 1px solid #77BC1F;
-  color: #77BC1F;
-  border-radius: 4px;
-}
-
 @media (max-width: 768px) {
-  /* line 113, ../scss/_navbar.scss */
+  /* line 121, ../scss/_navbar.scss */
   .what-we-do {
     padding-top: 30px;
     padding-bottom: 60px;
   }
 
-  /* line 118, ../scss/_navbar.scss */
+  /* line 126, ../scss/_navbar.scss */
   .navbar-toggle {
     position: absolute;
     left: 0px;
@@ -8276,7 +8267,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 4px;
   }
 
-  /* line 132, ../scss/_navbar.scss */
+  /* line 140, ../scss/_navbar.scss */
   .container > .navbar-header {
     text-align: center;
   }

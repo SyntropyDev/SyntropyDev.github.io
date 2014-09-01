@@ -61,7 +61,7 @@ $nav-wordmark-height    :24px;
 
   li{
     display: inline-block;
-
+    float:left;
     a{
       display: block;
       width: 100%;
@@ -90,24 +90,32 @@ $nav-wordmark-height    :24px;
       border-right:0px solid #4d4d4d;
     }
 
+//    a:hover{
+//      //  border:1px solid transparent;
+//      background-color: $green;
+//      //  border-radius: 4px;
+//      color      : rgba(255, 255, 255, 1);
+//    }
+
+    a.nav-page-Contact{
+      //  border:1px solid transparent;
+      background-color: $green;
+      //  border-radius: 4px;
+      color      : rgba(255, 255, 255, 1);
+    }
+
+//    a.nav-page-Contact{
+//      //  border:1px solid $green;
+//      color:$light-green;
+//      //  border-radius: 4px;
+//    }
   }
 
 }
 
 
 
-.navbar-nav > li > a.nav-page-Contact:hover{
-  border:1px solid transparent;
-  background-color: $green;
-  border-radius: 4px;
-  color      : rgba(255, 255, 255, 1);
-}
 
-.navbar-nav > li > a.nav-page-Contact{
-  border:1px solid $green;
-  color:$green;
-  border-radius: 4px;
-}
 
 @media (max-width: 768px){
   .what-we-do {
