@@ -1,0 +1,243 @@
+.what-we-do {
+  float:left;
+  padding-top     : 60px;
+  padding-bottom     : 90px;
+  font-size   : 14px;
+  line-height : 16px;
+  text-align  : left;
+
+  .btn-outline {
+    width  : 140px;
+  }
+}
+
+@media (max-width: 768px){
+  .what-we-do {
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+
+  .navbar-toggle{
+    position: absolute;
+    left: 0px;
+    padding: 9px 10px;
+    margin-top: 12px;
+    margin-left: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
+
+
+  .container>.navbar-header{
+    text-align: center;
+  }
+}
+
+.what-we-do {
+  font-family : $medium-font-stack;
+
+  .btn-outline {
+    border : 1px solid rgba(255, 255, 255, 0.6);
+    color  : rgba(255, 255, 255, 0.9);
+
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    white-space: nowrap;
+    text-decoration: none !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: always;
+    text-rendering: optimizeLegibility;
+  }
+
+  .btn-outline:hover {
+    color  : #fff;
+    border : 1px solid #FFF;
+  }
+
+
+  .learn-more{
+    margin-top:20px;
+  }
+
+}
+
+
+.what-we-do-examples{
+  margin-top:20px;
+  line-height: 24px;
+
+  a.example {
+    color : $light-green;
+
+    margin-right:20px;
+
+  }
+
+  a.example:hover{
+    color: #8BBF49;
+  }
+}
+
+a.example {
+  font-size:14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  vertical-align: middle;
+  transition       : all .2s ease-in-out 0;
+
+
+
+  i{
+    font-weight: 400;
+    font-size: 10px;
+    vertical-align: middle;
+  }
+}
+
+a.example:hover{
+  text-decoration: none;
+
+
+}
+
+.what-we-do-detail{
+  font-family: $font-stack;
+  font-weight: 300;
+  font-size   : 16px;
+  color       : $off-white;
+  line-height : 18px;
+  margin-bottom: 20px;
+
+}
+
+//Recent news headlines
+.announcement{
+  background-color: #FAFAFA;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  .news{
+    text-align: center;
+    margin:15px 0 15px;
+
+    i{
+      color:$green;
+    }
+
+  }
+
+  .contents{
+    font: $medium-font-stack;
+    text-align: left;
+    margin:15px 0 15px;
+
+    a{
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      text-decoration: none;
+      color: #5f6a7d;
+      margin-right: 20px;
+    }
+
+    a:hover{
+      color:$green;
+    }
+  }
+}
+
+
+//Blog post snippets
+
+div.section.blog-bg{
+  -webkit-font-smoothing: antialiased;
+
+  background-size: cover;
+  background-color: $dark-grey;
+  background-image: url('/images/greenbank-sliver.png');
+  background-size:cover;
+
+  h1{
+    color:#FFF;
+
+  }
+
+}
+
+.post-snippets{
+  margin-top: 30px;
+  -webkit-font-smoothing: antialiased;
+
+
+
+  .post.read-more{
+    line-height: 3em;
+  }
+
+  .post{
+    display: block;
+    width: 100%;
+    float:left;
+    padding-bottom: 10px;
+
+    a{
+      text-decoration: none;
+      cursor : pointer;
+    }
+
+    a:hover{
+      text-decoration: none;
+      cursor : pointer;
+    }
+
+    h4{
+      color:#FFF;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+
+      line-height: 1.7em;
+
+      max-width: 100%;
+      margin:0;
+      padding:0;
+    }
+
+    p{
+      color: #B3B3B3;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+
+      max-width: 100%;
+      margin:0;
+      padding:0;
+      font-size: 14px;
+
+      i{
+        font-weight: 300;
+      }
+    }
+  }
+
+
+  @media only screen and (min-width: 767px) {
+    .post{
+      display: inline-block;
+      max-width: 22%;
+      margin-right: 3%;
+      padding-bottom: 0px;
+    }
+
+    .post.read-more > a > h4{
+      text-align: right;
+    }
+  }
+}
+

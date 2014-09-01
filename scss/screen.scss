@@ -1,0 +1,369 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "bootstrap-compass";
+@import "bootstrap-variables";
+@import "bootstrap";
+@import 'base';
+@import 'navbar';
+@import 'hero';
+@import 'footer';
+@import 'animations';
+@import 'pg-home';
+@import 'pg-team';
+@import 'pg-strategies';
+
+a.btn-contact:hover{
+
+  background-color: #5A8F17;
+  color      : rgba(255, 255, 255, 1);
+  border:1px solid transparent;
+
+}
+
+a.btn-contact{
+
+  color      : rgba(255, 255, 255, 1);
+  border:1px solid transparent;
+  background-color: $green;
+
+  border-radius: 4px;
+  letter-spacing: 0px;
+  line-height: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all .2s ease-in-out 0;
+  vertical-align: baseline;
+  font-family: "ff-din-web", sans-serif;
+  font-weight: 700;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: always;
+  text-rendering: optimizeLegibility;
+
+}
+
+
+.btn-outline {
+  background-color : transparent;
+  border-radius    : 6px;
+  font             : 16px $medium-font-stack;
+  padding-left     : 20px;
+  padding-right    : 20px;
+  text-align       : center;
+  line-height      : 32px;
+  transition       : all .2s ease-in-out 0;
+}
+
+.btn-outline:hover {
+
+
+}
+
+.btn-outline.light {
+  color  : rgba(255, 255, 255, 0.7);
+  border : 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.btn-outline.light:hover {
+  color  : #FFF;
+  border : 1px solid #FFF;
+}
+
+.btn-outline.dark {
+  border           : 1px solid rgba(29, 28, 30, 0.60);
+  color  : rgba(29, 28, 30, 0.6);
+}
+
+.btn-outline.dark:hover {
+  color  : rgba(29, 28, 30, 1.0);
+  border : 1px solid rgba(29, 28, 30, 1.0);
+}
+
+
+
+.specifics {
+  position         : relative;
+  padding-top      : 33px;
+  padding-bottom   : 30px;
+
+  background-color : rgba(119, 188, 31, 0.65);
+  height           : 115px;
+  .container {
+    font-size   : 18px;
+    color       : $off-white;
+    line-height : 26px;
+    a {
+      color : $green;
+    }
+  }
+
+}
+
+
+
+body.light {
+  background-color : $off-white;
+}
+
+body.dark {
+  background-color : rgba(59, 59, 62, 1);
+}
+
+.section.light {
+  color            : $grey;
+  background-color : $off-white;
+
+  h1{
+    color            : $dark-grey;
+  }
+}
+
+.section.light.light-alternate{
+  background-color: #FAFAFA;
+  border-top: 1px solid #E0E0E0;
+  border-bottom: 1px solid #E0E0E0;
+
+}
+
+.section.dark {
+  color            : #EEE;
+  background-color : rgba(59, 59, 62, 1);
+
+  h1{
+    color            : #FFF;
+  }
+}
+
+
+.section {
+  font-size      : $section-font;
+  font-weight    : 300;
+  line-height    : $section-lh;
+
+  color          : #636F70;
+  padding-top    : 60px;
+  padding-bottom : 60px;
+
+  margin-top     : 0px;
+  margin-bottom  : 0px;
+
+  h1 {
+    font-size  : 28px;
+    line-height: 32px;
+    margin-top:0px;
+    color      : $dark-grey;
+    text-align: center;
+  }
+
+  .heading {
+    text-align    : center;
+    margin:0 auto;
+
+
+
+    max-width: 700px;
+
+  }
+
+}
+
+
+.img-responsive {
+  display   : block;
+  height    : auto;
+  max-width : 100%;
+}
+
+blockquote {
+  padding     : 10px 20px;
+  margin      : 0 0 20px;
+  font-size   : 17.5px;
+  border-left : 8px solid #EEE;
+}
+
+.big {
+  font           : $medium-font-stack;
+  font-size      : 46px;
+  letter-spacing : 2px;
+  white-space    : nowrap;
+  line-height    : 1.2;
+}
+
+.dark .syntropy-brand {
+  background      : url("/images/Word%20Mark.png") no-repeat center center;
+  background-size : 177px 30px;
+}
+
+.light .syntropy-brand {
+  background      : url("/images/Word%20Mark%20Dark.png") no-repeat center center;
+  background-size : 177px 30px;
+}
+
+.syntropy-brand {
+  width   : 181px;
+  display : inline-block;
+  height  : $nav-height;
+}
+
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform : rotate(360deg);
+  }
+  100% {
+    -webkit-transform : rotate(0deg);
+  }
+}
+
+.syntropy-logo {
+  background              : url("/images/syntropy-logo@1x.png") no-repeat center center;
+  width                   : 30px;
+  background-size         : 30px 30px;
+  display                 : inline-block;
+  height                  : $nav-height;
+
+  -webkit-animation-delay : 0.7s;
+  -moz-animation-delay    : 0.7s;
+  animation-delay         : 0.7s;
+
+  animation               : spin 2s 1 cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -webkit-animation       : spin 2s 1 cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+}
+
+
+.section-title {
+  margin-bottom  : 0px;
+  text-align     : left;
+
+  .container{
+    h1 {
+      margin-top : 10px;
+
+      a{
+        padding        : 20px 20px 15px;
+        width: 100%;
+        height: 100%;
+        display: block;
+        color: #fff;
+
+      }
+      a:hover{
+        color:#fff;
+      }
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 26px;
+    }
+
+  }
+
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: $medium-font-stack;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding  : 6px 12px 6px 6px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 2px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: all ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: all ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.dark .form-control{
+  color: #FFF;
+  background-color: #2D2D2F;
+  border-left:6px solid transparent;
+  border: 1px solid transparent;
+}
+
+textarea, input { outline: none; }
+
+.light .form-control{
+  color:#3b3b3e;
+  background-color:#FFF;
+  border: 1px solid $green;
+}
+
+.light .form-control:focus{
+  border-left:6px solid $green;
+}
+
+.light h1, .light h2, .light h3, .light h4, .light h5, .light h6{
+  color:#3b3b3e;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: $green;
+  box-shadow: none;
+}
+
+.section-title.green {
+  background-color : $green;
+  color            : #FFF;
+}
+
+.section-title.grey {
+  background-color : $grey;
+  color            : #FFF;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.section-title.grey h1{
+  color            : #FFF;
+}
+
+.section-title.dark {
+  background-color : $dark-grey;
+  color            : #FFF;
+}
+
+.map{
+  position                : relative;
+  color                   : $off-white;
+  height                  : 500px;
+  width                   : 100%;
+  box-sizing: content-box;
+}
+
+.map-container{
+  border-bottom: 8px solid $green;
+
+}
+
+@media only screen and (max-width: 767px) {
+
+  .section h2{
+    text-align: center;
+  }
+
+  .map{
+    position                : relative;
+    color                   : $off-white;
+    height                  : 270px;
+    width                   : 100%;
+    box-sizing: content-box;
+  }
+}

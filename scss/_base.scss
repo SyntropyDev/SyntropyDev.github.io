@@ -1,0 +1,29 @@
+$font-stack : "proxima-nova", Helvetica, sans-serif;
+$medium-font-stack : "ff-din-web", sans-serif;
+$light-font-stack : "ff-din-web", sans-serif;
+
+$primary-color : #5f6a7d;
+$green : #77BC1F;
+$light-green : #A9E858;
+$grey : #8A8A8D;
+$dark-grey : #3B3B3E;
+$off-white : #FFF;
+
+$section-font:16px;
+$section-lh:28px;
+
+$nav-height: 60px;
+
+
+html, body {
+  font             : 14px $font-stack;
+  font-weight: 300;
+  color            : $primary-color;
+  background-color : $grey;
+  min-height       : 100%;
+  height           : 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family : $light-font-stack;
+}

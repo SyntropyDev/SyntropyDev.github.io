@@ -1,0 +1,236 @@
+$rss-duration: 6s;
+
+#straticon{
+  width: 256px;
+  height: 256px;
+}
+
+#straticon-container{
+  color:$green;
+  font-size: 250px;
+  margin-top:75px;
+  text-align: center;
+}
+
+
+.iconic * {
+  fill: $grey;
+  stroke: $grey;
+}
+
+.iconic-property-accent {
+  fill: $green;
+  stroke: $green;
+}
+
+.iconic-rss-alt-center{
+  fill: $green;
+  stroke: $green;
+
+  -webkit-animation-name: blinker-0;
+  -webkit-animation-duration: $rss-duration;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+
+  -moz-animation-name: blinker-0;
+  -moz-animation-duration: $rss-duration;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+
+  animation-name: blinker-0;
+  animation-duration: $rss-duration;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.iconic-rss-alt-wave-inner{
+  fill: $green;
+  stroke: $green;
+
+  -webkit-animation-name: blinker-1;
+  -webkit-animation-duration: $rss-duration;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+
+  -moz-animation-name: blinker-1;
+  -moz-animation-duration: $rss-duration;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+
+  animation-name: blinker-1;
+  animation-duration: $rss-duration;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+}
+
+.iconic-rss-alt-wave-outer{
+  fill: $green;
+  stroke: $green;
+
+  -webkit-animation-name: blinker-2;
+  -webkit-animation-duration: $rss-duration;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+
+  -moz-animation-name: blinker-2;
+  -moz-animation-duration: $rss-duration;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+
+  animation-name: blinker-2;
+  animation-duration: $rss-duration;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@-moz-keyframes blinker-0 {
+  0% { opacity: 0.0; }
+  25% { opacity: 1.0; }
+  50% { opacity: 1.0; }
+  100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker-0 {
+  0% { opacity: 0.0; }
+  25% { opacity: 1.0; }
+  50% { opacity: 1.0; }
+  100% { opacity: 1.0; }
+}
+
+@keyframes blinker-0 {
+  0% {
+    opacity : 0.0;
+  }
+  25% {
+    opacity : 1.0;
+  }
+  50% {
+    opacity : 1.0;
+  }
+  100% {
+    opacity : 1.0;
+  }
+}
+
+@-moz-keyframes blinker-1 {
+  0% { opacity: 0.0; }
+  25% { opacity: 0.0; }
+  50% { opacity: 1.0; }
+  100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker-1 {
+  0% { opacity: 0.0; }
+  25% { opacity: 0.0; }
+  50% { opacity: 1.0; }
+  100% { opacity: 1.0; }
+}
+
+@keyframes blinker-1 {
+  0% { opacity: 0.0; }
+  25% { opacity: 0.0; }
+  50% { opacity: 1.0; }
+  100% { opacity: 1.0; }
+}
+
+@-moz-keyframes blinker-2 {
+  0% { opacity: 0.0; }
+  25% { opacity: 0.0; }
+  50% { opacity: 0.0; }
+  75% { opacity: 1.0; }
+  100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker-2 {
+  0% { opacity: 0.0; }
+  25% { opacity: 0.0; }
+  50% { opacity: 0.0; }
+  75% { opacity: 1.0; }
+  100% { opacity: 1.0; }
+}
+
+@keyframes blinker-2 {
+  0% { opacity: 0.0; }
+  25% { opacity: 0.0; }
+  50% { opacity: 0.0; }
+  75% { opacity: 1.0; }
+  100% { opacity: 1.0; }
+}
+
+
+.iconic-server-chasis-top-light{
+
+  animation: blink-1 2s 0.5s infinite;
+  -webkit-animation: blink-1 2s 0.5s infinite;
+
+  transition-timing-function: step-end;
+  -webkit-transition-timing-function: step-end;
+  animation-timing-function: step-end;
+  -webkit-animation-timing-function: step-end;
+
+}
+
+.iconic-server-chasis-bottom-light{
+  fill: $grey;
+  stroke: $grey;
+
+  animation: blink-1 2.5s 1s infinite;
+  -webkit-animation: blink-1 2.5s 1s infinite;
+
+  transition-timing-function: step-end;
+  -webkit-transition-timing-function: step-end;
+  animation-timing-function: step-end;
+  -webkit-animation-timing-function: step-end;
+
+}
+
+.iconic-server-chasis-middle-light{
+  fill: $grey;
+  stroke: $grey;
+
+  animation: blink-3 3.2s 2s infinite;
+  -webkit-animation: blink-3 3.2s 2s infinite;
+
+  transition-timing-function: step-end;
+  -webkit-transition-timing-function: step-end;
+  animation-timing-function: step-end;
+  -webkit-animation-timing-function: step-end;
+
+}
+
+@keyframes blink-1 {
+  0% {fill: $grey;}
+  12.5% {fill: $green;}
+  25% {fill: $grey;}
+  100% {fill: $grey;}
+}
+
+@-webkit-keyframes blink-1 {
+  0% {fill: $grey;}
+  12.5% {fill: $green;}
+  25% {fill: $grey;}
+  100% {fill: $grey;}
+}
+
+@keyframes blink-3 {
+  0% {fill: $grey;}
+  12.5% {fill: $green;}
+  15% {fill: $grey;}
+  17.5% {fill: $green;}
+  20% {fill: $grey;}
+  22.5% {fill: $green;}
+  25% {fill: $grey;}
+  100% {fill: $grey;}
+}
+
+@-webkit-keyframes blink-3 {
+  0% {fill: $grey;}
+  12.5% {fill: $green;}
+  15% {fill: $grey;}
+  17.5% {fill: $green;}
+  20% {fill: $grey;}
+  22.5% {fill: $green;}
+  25% {fill: $grey;}
+  100% {fill: $grey;}
+}

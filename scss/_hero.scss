@@ -1,0 +1,45 @@
+@media only screen and (-webkit-min-device-pixel-ratio : 2),
+only screen and (min--moz-device-pixel-ratio           : 2),
+only screen and (-o-min-device-pixel-ratio             : 2/1),
+only screen and (min-device-pixel-ratio                : 2),
+only screen and (min-resolution                        : 192dpi),
+only screen and (min-resolution                        : 2dppx) {
+  // background                                           : url("/images/Hero%20Container@0.5x.jpg") no-repeat center center;
+}
+
+.hero-pitch {
+  position                : relative;
+  color                   : $off-white;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-background-size : cover;
+  -moz-background-size    : cover;
+  -o-background-size      : cover;
+  background-size         : cover;
+  height                  : auto;
+  width                   : 100%;
+  -webkit-font-smoothing: antialiased;
+
+  background: $dark-grey;
+  background: -webkit-radial-gradient(bottom left,circle, #4D4C54,$dark-grey);
+  background: radial-gradient(bottom left,circle, #4D4C54,$dark-grey);
+}
+
+.hero-pitch.home{
+  background-image:url(/images/traffic.jpg);
+  background-position-x: left;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-background-size : cover;
+  -moz-background-size    : cover;
+  -o-background-size      : cover;
+  background-size         : cover;
+  height                  : auto;
+  width                   : 100%;
+  -webkit-font-smoothing: antialiased;
+}
