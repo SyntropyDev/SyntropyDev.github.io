@@ -8094,7 +8094,7 @@ button.close {
     display: none !important;
   }
 }
-/* line 18, ../scss/_base.scss */
+/* line 60, ../scss/_base.scss */
 html, body {
   font: 14px "proxima-nova", Helvetica, sans-serif;
   font-weight: 300;
@@ -8104,81 +8104,143 @@ html, body {
   height: 100%;
 }
 
-/* line 27, ../scss/_base.scss */
+/* line 69, ../scss/_base.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "ff-din-web", sans-serif;
 }
 
-/* line 2, ../scss/_navbar.scss */
-.navbar {
+/* line 1, ../scss/_brand.scss */
+.syntropy-logo {
+  background: url("/images/syntropy-logo@1x.png") no-repeat center center;
+  width: 26px;
+  height: 26px;
+  background-size: 26px 26px;
+  display: inline-block;
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+  animation: spin 2s 1 cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -webkit-animation: spin 2s 1 cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+/* line 16, ../scss/_brand.scss */
+.syntropy-brand {
+  width: 181px;
+  height: 44px;
+  display: inline-block;
+}
+
+/* line 22, ../scss/_brand.scss */
+.dark .syntropy-brand {
+  background: url("/images/Word%20Mark.png") no-repeat center center;
+  background-size: 177px 30px;
+}
+
+/* line 27, ../scss/_brand.scss */
+.light .syntropy-brand {
+  background: url("/images/Word%20Mark%20Dark.png") no-repeat center center;
+  background-size: 177px 30px;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(360deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+  }
+}
+/* line 6, ../scss/_navbar.scss */
+.nav {
+  padding-left: 15px;
   border-radius: 0px;
-  height: 60px;
+  border: none;
+  height: 44px;
   margin-bottom: 0px;
-  z-index: 10;
-}
-/* line 7, ../scss/_navbar.scss */
-.navbar .container-fluid {
-  height: 60px;
-}
-
-/* line 12, ../scss/_navbar.scss */
-.navbar-nav > li {
-  float: left;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-/* line 18, ../scss/_navbar.scss */
-.navbar-header {
-  height: 60px;
-}
-
-/* line 22, ../scss/_navbar.scss */
-.navbar-default {
+  z-index: 700;
+  text-align: center;
   font: 14px "ff-din-web", sans-serif;
-  border-color: transparent;
+  background-color: #3B3B3E;
+  overflow: hidden;
+}
+/* line 20, ../scss/_navbar.scss */
+.nav .container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
-/* line 27, ../scss/_navbar.scss */
-.navbar-default.dark {
-  transition: all .4s ease 0;
-  background-color: transparent;
+/* line 26, ../scss/_navbar.scss */
+.nav-logo {
+  background: url("/images/syntropy-logo@1x.png") no-repeat center center;
+  width: 24px;
+  height: 44px;
+  background-size: 24px 24px;
+  display: inline-block;
+  animation: spin 1.7s 1 cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -webkit-animation: spin 1.7s 1 cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
-/* line 32, ../scss/_navbar.scss */
-.navbar-default.dark:hover {
-  background-color: rgba(59, 59, 62, 0.65);
-}
-
-/* line 37, ../scss/_navbar.scss */
-.navbar-default.dark.opaque {
-  background-color: #3b3b3e;
+/* line 36, ../scss/_navbar.scss */
+.nav-wordmark {
+  width: 132px;
+  height: 44px;
+  display: inline-block;
 }
 
 /* line 42, ../scss/_navbar.scss */
-.navbar-default.light {
-  background-color: #FFF;
+.dark .nav-wordmark {
+  background: url("/images/Word%20Mark.png") no-repeat center center;
+  background-size: auto 24px;
 }
 
-/* line 46, ../scss/_navbar.scss */
-.navbar-nav > li > a {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  line-height: 35px;
-  text-transform: uppercase;
-  font-size: 12px;
-  letter-spacing: 1px;
-  font-weight: 600;
+/* line 47, ../scss/_navbar.scss */
+.light .nav-wordmark {
+  background: url("/images/Word%20Mark%20Dark.png") no-repeat center center;
+  background-size: auto 24px;
+}
+
+/* line 53, ../scss/_navbar.scss */
+.nav-header {
+  float: left;
+}
+
+/* line 57, ../scss/_navbar.scss */
+.nav-links {
+  display: block;
+  float: right;
+}
+/* line 62, ../scss/_navbar.scss */
+.nav-links li {
+  display: inline-block;
+}
+/* line 65, ../scss/_navbar.scss */
+.nav-links li a {
+  display: block;
+  width: 100%;
+  padding: 0 15px;
+  line-height: 45px;
+  font-size: 13px;
+  letter-spacing: 0px;
+  font-weight: 700;
   white-space: nowrap;
   text-decoration: none !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-smoothing: always;
   text-rendering: optimizeLegibility;
-  color: #2e3b4e;
+  color: #FFF;
+  border-right: 1px solid #4d4d4d;
+}
+/* line 85, ../scss/_navbar.scss */
+.nav-links li a:first-child {
+  border-left: 1px solid #4d4d4d;
+}
+/* line 89, ../scss/_navbar.scss */
+.nav-links li a:last-child {
+  border-right: 0px solid #4d4d4d;
 }
 
-/* line 63, ../scss/_navbar.scss */
+/* line 99, ../scss/_navbar.scss */
 .navbar-nav > li > a.nav-page-Contact:hover {
   border: 1px solid transparent;
   background-color: #77BC1F;
@@ -8186,7 +8248,7 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
 }
 
-/* line 70, ../scss/_navbar.scss */
+/* line 106, ../scss/_navbar.scss */
 .navbar-nav > li > a.nav-page-Contact {
   border: 1px solid #77BC1F;
   color: #77BC1F;
@@ -8194,117 +8256,29 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 768px) {
-  /* line 81, ../scss/_navbar.scss */
-  .navbar-nav > li {
-    padding-top: 0px;
-    padding-bottom: 0px;
+  /* line 113, ../scss/_navbar.scss */
+  .what-we-do {
+    padding-top: 30px;
+    padding-bottom: 60px;
   }
 
-  /* line 86, ../scss/_navbar.scss */
-  .navbar-nav > li > a {
-    font-size: 16px;
-    min-width: 48px;
-    line-height: 48px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-
-  /* line 95, ../scss/_navbar.scss */
-  .navbar-nav > li > a.nav-page-Contact {
+  /* line 118, ../scss/_navbar.scss */
+  .navbar-toggle {
+    position: absolute;
+    left: 0px;
+    padding: 9px 10px;
+    margin-top: 12px;
+    margin-left: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
     border: 1px solid transparent;
-    color: #77BC1F;
     border-radius: 4px;
   }
-}
-/* line 102, ../scss/_navbar.scss */
-.dark .navbar-default .navbar-nav > li > a {
-  color: rgba(255, 255, 255, 0.85);
-  transition: all .2s ease-in-out 0;
-}
 
-/* line 107, ../scss/_navbar.scss */
-.dark .navbar-default .navbar-nav > li > a:hover {
-  color: #FFF;
-}
-
-/* line 111, ../scss/_navbar.scss */
-.light .navbar-default .navbar-nav > li > a {
-  color: rgba(59, 59, 62, 0.85);
-  transition: all .2s ease-in-out 0;
-}
-
-/* line 116, ../scss/_navbar.scss */
-.light .navbar-default .navbar-nav > li > a:hover {
-  color: #3B3B3E;
-}
-
-/* line 120, ../scss/_navbar.scss */
-.navbar-default.dark .navbar-toggle .icon-bar {
-  background-color: rgba(255, 255, 255, 0.8);
-}
-
-/* line 124, ../scss/_navbar.scss */
-.navbar-default.light .navbar-toggle .icon-bar {
-  background-color: rgba(59, 59, 62, 0.8);
-}
-
-@media only screen and (max-width: 767px) {
-  /* line 130, ../scss/_navbar.scss */
-  .navbar-default.dark .navbar-collapse {
-    background: #3B3B3E;
-  }
-
-  /* line 134, ../scss/_navbar.scss */
-  .navbar-default.light .navbar-collapse {
-    background: #FFF;
-  }
-
-  /* line 139, ../scss/_navbar.scss */
-  .syntropy-logo {
-    margin-left: 15px;
-  }
-
-  /* line 143, ../scss/_navbar.scss */
-  .container-fluid > .navbar-collapse {
-    margin-right: -20px;
-    margin-left: -20px;
-  }
-
-  /* line 148, ../scss/_navbar.scss */
-  .navbar-nav {
-    margin: 3px -15px;
-  }
-
-  /* line 152, ../scss/_navbar.scss */
-  .navbar-collapse {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-top: -1px;
-    overflow-x: visible;
-    -webkit-overflow-scrolling: touch;
-    border-top: 0px solid transparent;
-    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
-  }
-
-  /* line 163, ../scss/_navbar.scss */
-  .navbar-default.dark .navbar-toggle {
-    border-color: rgba(255, 255, 255, 0);
-  }
-
-  /* line 167, ../scss/_navbar.scss */
-  .navbar-default.dark .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: rgba(255, 255, 255, 0.3);
-  }
-
-  /* line 172, ../scss/_navbar.scss */
-  .navbar-default.light .navbar-toggle {
-    border-color: rgba(59, 59, 62, 0);
-  }
-
-  /* line 176, ../scss/_navbar.scss */
-  .navbar-default.light .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: rgba(59, 59, 62, 0.3);
+  /* line 132, ../scss/_navbar.scss */
+  .container > .navbar-header {
+    text-align: center;
   }
 }
 /* line 10, ../scss/_hero.scss */
@@ -8768,8 +8742,8 @@ h1, h2, h3, h4, h5, h6 {
 /* line 1, ../scss/_pg-home.scss */
 .what-we-do {
   float: left;
-  padding-top: 60px;
-  padding-bottom: 90px;
+  padding-top: 90px;
+  padding-bottom: 120px;
   font-size: 14px;
   line-height: 16px;
   text-align: left;
@@ -9105,14 +9079,14 @@ div.section.blog-bg h1 {
   text-align: left;
 }
 
-/* line 19, ../scss/screen.scss */
+/* line 20, ../scss/screen.scss */
 a.btn-contact:hover {
   background-color: #5A8F17;
   color: white;
   border: 1px solid transparent;
 }
 
-/* line 27, ../scss/screen.scss */
+/* line 28, ../scss/screen.scss */
 a.btn-contact {
   color: white;
   border: 1px solid transparent;
@@ -9134,7 +9108,7 @@ a.btn-contact {
   text-rendering: optimizeLegibility;
 }
 
-/* line 52, ../scss/screen.scss */
+/* line 53, ../scss/screen.scss */
 .btn-outline {
   background-color: transparent;
   border-radius: 6px;
@@ -9146,31 +9120,31 @@ a.btn-contact {
   transition: all .2s ease-in-out 0;
 }
 
-/* line 68, ../scss/screen.scss */
+/* line 69, ../scss/screen.scss */
 .btn-outline.light {
   color: rgba(255, 255, 255, 0.7);
   border: 1px solid rgba(255, 255, 255, 0.7);
 }
 
-/* line 73, ../scss/screen.scss */
+/* line 74, ../scss/screen.scss */
 .btn-outline.light:hover {
   color: #FFF;
   border: 1px solid #FFF;
 }
 
-/* line 78, ../scss/screen.scss */
+/* line 79, ../scss/screen.scss */
 .btn-outline.dark {
   border: 1px solid rgba(29, 28, 30, 0.6);
   color: rgba(29, 28, 30, 0.6);
 }
 
-/* line 83, ../scss/screen.scss */
+/* line 84, ../scss/screen.scss */
 .btn-outline.dark:hover {
   color: #1d1c1e;
   border: 1px solid #1d1c1e;
 }
 
-/* line 90, ../scss/screen.scss */
+/* line 91, ../scss/screen.scss */
 .specifics {
   position: relative;
   padding-top: 33px;
@@ -9178,55 +9152,55 @@ a.btn-contact {
   background-color: rgba(119, 188, 31, 0.65);
   height: 115px;
 }
-/* line 97, ../scss/screen.scss */
+/* line 98, ../scss/screen.scss */
 .specifics .container {
   font-size: 18px;
   color: #FFF;
   line-height: 26px;
 }
-/* line 101, ../scss/screen.scss */
+/* line 102, ../scss/screen.scss */
 .specifics .container a {
   color: #77BC1F;
 }
 
-/* line 110, ../scss/screen.scss */
+/* line 111, ../scss/screen.scss */
 body.light {
   background-color: #FFF;
 }
 
-/* line 114, ../scss/screen.scss */
+/* line 115, ../scss/screen.scss */
 body.dark {
   background-color: #3b3b3e;
 }
 
-/* line 118, ../scss/screen.scss */
+/* line 119, ../scss/screen.scss */
 .section.light {
   color: #8A8A8D;
   background-color: #FFF;
 }
-/* line 122, ../scss/screen.scss */
+/* line 123, ../scss/screen.scss */
 .section.light h1 {
   color: #3B3B3E;
 }
 
-/* line 127, ../scss/screen.scss */
+/* line 128, ../scss/screen.scss */
 .section.light.light-alternate {
   background-color: #FAFAFA;
   border-top: 1px solid #E0E0E0;
   border-bottom: 1px solid #E0E0E0;
 }
 
-/* line 134, ../scss/screen.scss */
+/* line 135, ../scss/screen.scss */
 .section.dark {
   color: #EEE;
   background-color: #3b3b3e;
 }
-/* line 138, ../scss/screen.scss */
+/* line 139, ../scss/screen.scss */
 .section.dark h1 {
   color: #FFF;
 }
 
-/* line 144, ../scss/screen.scss */
+/* line 145, ../scss/screen.scss */
 .section {
   font-size: 16px;
   font-weight: 300;
@@ -9237,7 +9211,7 @@ body.dark {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-/* line 156, ../scss/screen.scss */
+/* line 157, ../scss/screen.scss */
 .section h1 {
   font-size: 28px;
   line-height: 32px;
@@ -9245,21 +9219,21 @@ body.dark {
   color: #3B3B3E;
   text-align: center;
 }
-/* line 164, ../scss/screen.scss */
+/* line 165, ../scss/screen.scss */
 .section .heading {
   text-align: center;
   margin: 0 auto;
   max-width: 700px;
 }
 
-/* line 177, ../scss/screen.scss */
+/* line 178, ../scss/screen.scss */
 .img-responsive {
   display: block;
   height: auto;
   max-width: 100%;
 }
 
-/* line 183, ../scss/screen.scss */
+/* line 184, ../scss/screen.scss */
 blockquote {
   padding: 10px 20px;
   margin: 0 0 20px;
@@ -9267,7 +9241,7 @@ blockquote {
   border-left: 8px solid #EEE;
 }
 
-/* line 190, ../scss/screen.scss */
+/* line 191, ../scss/screen.scss */
 .big {
   font: "ff-din-web", sans-serif;
   font-size: 46px;
@@ -9276,57 +9250,16 @@ blockquote {
   line-height: 1.2;
 }
 
-/* line 198, ../scss/screen.scss */
-.dark .syntropy-brand {
-  background: url("/images/Word%20Mark.png") no-repeat center center;
-  background-size: 177px 30px;
-}
-
-/* line 203, ../scss/screen.scss */
-.light .syntropy-brand {
-  background: url("/images/Word%20Mark%20Dark.png") no-repeat center center;
-  background-size: 177px 30px;
-}
-
-/* line 208, ../scss/screen.scss */
-.syntropy-brand {
-  width: 181px;
-  display: inline-block;
-  height: 60px;
-}
-
-@-webkit-keyframes spin {
-  0% {
-    -webkit-transform: rotate(360deg);
-  }
-  100% {
-    -webkit-transform: rotate(0deg);
-  }
-}
-/* line 224, ../scss/screen.scss */
-.syntropy-logo {
-  background: url("/images/syntropy-logo@1x.png") no-repeat center center;
-  width: 30px;
-  background-size: 30px 30px;
-  display: inline-block;
-  height: 60px;
-  -webkit-animation-delay: 0.7s;
-  -moz-animation-delay: 0.7s;
-  animation-delay: 0.7s;
-  animation: spin 2s 1 cubic-bezier(0.455, 0.03, 0.515, 0.955);
-  -webkit-animation: spin 2s 1 cubic-bezier(0.455, 0.03, 0.515, 0.955);
-}
-
-/* line 241, ../scss/screen.scss */
+/* line 199, ../scss/screen.scss */
 .section-title {
   margin-bottom: 0px;
   text-align: left;
 }
-/* line 246, ../scss/screen.scss */
+/* line 204, ../scss/screen.scss */
 .section-title .container h1 {
   margin-top: 10px;
 }
-/* line 249, ../scss/screen.scss */
+/* line 207, ../scss/screen.scss */
 .section-title .container h1 a {
   padding: 20px 20px 15px;
   width: 100%;
@@ -9334,17 +9267,17 @@ blockquote {
   display: block;
   color: #fff;
 }
-/* line 257, ../scss/screen.scss */
+/* line 215, ../scss/screen.scss */
 .section-title .container h1 a:hover {
   color: #fff;
 }
-/* line 262, ../scss/screen.scss */
+/* line 220, ../scss/screen.scss */
 .section-title .container p {
   font-size: 18px;
   line-height: 26px;
 }
 
-/* line 271, ../scss/screen.scss */
+/* line 229, ../scss/screen.scss */
 label {
   display: inline-block;
   margin-bottom: 5px;
@@ -9353,7 +9286,7 @@ label {
   font-family: "ff-din-web", sans-serif;
 }
 
-/* line 279, ../scss/screen.scss */
+/* line 237, ../scss/screen.scss */
 .form-control {
   display: block;
   width: 100%;
@@ -9368,7 +9301,7 @@ label {
   transition: all ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 
-/* line 293, ../scss/screen.scss */
+/* line 251, ../scss/screen.scss */
 .dark .form-control {
   color: #FFF;
   background-color: #2D2D2F;
@@ -9376,42 +9309,42 @@ label {
   border: 1px solid transparent;
 }
 
-/* line 300, ../scss/screen.scss */
+/* line 258, ../scss/screen.scss */
 textarea, input {
   outline: none;
 }
 
-/* line 302, ../scss/screen.scss */
+/* line 260, ../scss/screen.scss */
 .light .form-control {
   color: #3b3b3e;
   background-color: #FFF;
   border: 1px solid #77BC1F;
 }
 
-/* line 308, ../scss/screen.scss */
+/* line 266, ../scss/screen.scss */
 .light .form-control:focus {
   border-left: 6px solid #77BC1F;
 }
 
-/* line 312, ../scss/screen.scss */
+/* line 270, ../scss/screen.scss */
 .light h1, .light h2, .light h3, .light h4, .light h5, .light h6 {
   color: #3b3b3e;
 }
 
-/* line 316, ../scss/screen.scss */
+/* line 274, ../scss/screen.scss */
 .form-control:focus {
   outline: none;
   border-color: #77BC1F;
   box-shadow: none;
 }
 
-/* line 322, ../scss/screen.scss */
+/* line 280, ../scss/screen.scss */
 .section-title.green {
   background-color: #77BC1F;
   color: #FFF;
 }
 
-/* line 327, ../scss/screen.scss */
+/* line 285, ../scss/screen.scss */
 .section-title.grey {
   background-color: #8A8A8D;
   color: #FFF;
@@ -9419,18 +9352,18 @@ textarea, input {
   padding-bottom: 15px;
 }
 
-/* line 334, ../scss/screen.scss */
+/* line 292, ../scss/screen.scss */
 .section-title.grey h1 {
   color: #FFF;
 }
 
-/* line 338, ../scss/screen.scss */
+/* line 296, ../scss/screen.scss */
 .section-title.dark {
   background-color: #3B3B3E;
   color: #FFF;
 }
 
-/* line 343, ../scss/screen.scss */
+/* line 301, ../scss/screen.scss */
 .map {
   position: relative;
   color: #FFF;
@@ -9439,18 +9372,18 @@ textarea, input {
   box-sizing: content-box;
 }
 
-/* line 351, ../scss/screen.scss */
+/* line 309, ../scss/screen.scss */
 .map-container {
   border-bottom: 8px solid #77BC1F;
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 358, ../scss/screen.scss */
+  /* line 316, ../scss/screen.scss */
   .section h2 {
     text-align: center;
   }
 
-  /* line 362, ../scss/screen.scss */
+  /* line 320, ../scss/screen.scss */
   .map {
     position: relative;
     color: #FFF;

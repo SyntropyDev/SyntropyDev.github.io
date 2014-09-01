@@ -8,6 +8,7 @@
 @import "bootstrap-variables";
 @import "bootstrap";
 @import 'base';
+@import 'brand';
 @import 'navbar';
 @import 'hero';
 @import 'footer';
@@ -194,49 +195,6 @@ blockquote {
   white-space    : nowrap;
   line-height    : 1.2;
 }
-
-.dark .syntropy-brand {
-  background      : url("/images/Word%20Mark.png") no-repeat center center;
-  background-size : 177px 30px;
-}
-
-.light .syntropy-brand {
-  background      : url("/images/Word%20Mark%20Dark.png") no-repeat center center;
-  background-size : 177px 30px;
-}
-
-.syntropy-brand {
-  width   : 181px;
-  display : inline-block;
-  height  : $nav-height;
-}
-
-
-@-webkit-keyframes spin {
-  0% {
-    -webkit-transform : rotate(360deg);
-  }
-  100% {
-    -webkit-transform : rotate(0deg);
-  }
-}
-
-.syntropy-logo {
-  background              : url("/images/syntropy-logo@1x.png") no-repeat center center;
-  width                   : 30px;
-  background-size         : 30px 30px;
-  display                 : inline-block;
-  height                  : $nav-height;
-
-  -webkit-animation-delay : 0.7s;
-  -moz-animation-delay    : 0.7s;
-  animation-delay         : 0.7s;
-
-  animation               : spin 2s 1 cubic-bezier(0.455, 0.03, 0.515, 0.955);
-  -webkit-animation       : spin 2s 1 cubic-bezier(0.455, 0.03, 0.515, 0.955);
-
-}
-
 
 .section-title {
   margin-bottom  : 0px;

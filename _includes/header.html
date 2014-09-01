@@ -1,21 +1,13 @@
-<nav class="navbar navbar-default dark" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="syntropy-logo" href="/"></a>
-      <a class="syntropy-brand" href="/"></a>
+<nav class="nav dark" role="navigation">
+  <div class="container-fluid">
+    <div class="nav-header">
+      <a class="nav-logo" href="/"></a>
+      <a class="nav-wordmark" href="/"></a>
     </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="/">Home</a></li>
-        <li><a href="http://blog.syntropydev.com">Blog <i class="fa fa-external"></i> </a></li>
+    <ul class="nav-links">
+        <!--<li><a href="/">Home</a></li>-->
+        <li><a href="http://blog.syntropydev.com">Blog</a></li>
 
 
         {% assign sorted_pages = site.pages | sort:"rank" %}
@@ -29,7 +21,7 @@
         {% endfor %}
 
 
-      </ul>
-    </div><!-- /.navbar-collapse -->
+    </ul>
+
   </div><!-- /.container-fluid -->
 </nav>

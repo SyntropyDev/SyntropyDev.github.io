@@ -1,64 +1,100 @@
+$nav-height             :44px;
 
-.navbar{
+$nav-logo-height        :24px;
+$nav-wordmark-height    :24px;
+
+.nav{
+  padding-left: 15px;
   border-radius:0px;
-  height:60px;
+  border: none;
+  height:$nav-height;
   margin-bottom: 0px;
-  z-index: 10;
+  z-index: $zIndex-7--nav;
+  text-align: center;
+
+  font             : 14px $medium-font-stack;
+  background-color : $dark-grey;
+
+  overflow: hidden;
+
   .container-fluid{
-    height:60px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 
-.navbar-nav>li {
+.nav-logo {
+  background              : url("/images/syntropy-logo@1x.png") no-repeat center center;
+  width                   : $nav-logo-height;
+  height                  : $nav-height;
+  background-size         : $nav-logo-height $nav-logo-height;
+  display                 : inline-block;
+  animation               : spin 1.7s 1 cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -webkit-animation       : spin 1.7s 1 cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.nav-wordmark {
+  width   : 132px;
+  height  : $nav-height;
+  display : inline-block;
+}
+
+.dark .nav-wordmark {
+  background      : url("/images/Word%20Mark.png") no-repeat center center;
+  background-size : auto $nav-wordmark-height;
+}
+
+.light .nav-wordmark {
+  background      : url("/images/Word%20Mark%20Dark.png") no-repeat center center;
+  background-size : auto $nav-wordmark-height;
+}
+
+
+.nav-header{
   float: left;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 
-.navbar-header{
-  height    : $nav-height;
+.nav-links{
+
+  display: block;
+  float:right;
+
+  li{
+    display: inline-block;
+
+    a{
+      display: block;
+      width: 100%;
+      padding: 0 15px;
+      line-height: 45px;
+//      text-transform: uppercase;
+      font-size: 13px;
+      letter-spacing: 0px;
+      font-weight: 700;
+      white-space: nowrap;
+      text-decoration: none !important;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      font-smoothing: always;
+      text-rendering: optimizeLegibility;
+      color:#FFF;
+      border-right:1px solid #4d4d4d;
+    }
+
+
+    a:first-child{
+      border-left:1px solid #4d4d4d;
+    }
+
+    a:last-child{
+      border-right:0px solid #4d4d4d;
+    }
+
+  }
+
 }
 
-.navbar-default {
-  font             : 14px $medium-font-stack;
-  border-color     : transparent;
-}
 
-.navbar-default.dark{
-  transition : all .4s ease 0;
-  background-color : transparent;
-}
-
-.navbar-default.dark:hover {
-  background-color: rgba(59, 59, 62, 0.65);
-}
-
-
-.navbar-default.dark.opaque{
-  background-color : rgba(59, 59, 62, 1);
-}
-
-
-.navbar-default.light{
-  background-color : #FFF;
-}
-
-.navbar-nav > li > a {
-  padding-top    : 0px;
-  padding-bottom : 0px;
-  line-height    : 35px;
-  text-transform: uppercase;
-  font-size: 12px;
-  letter-spacing: 1px;
-  font-weight: 600;
-  white-space: nowrap;
-  text-decoration: none !important;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-smoothing: always;
-  text-rendering: optimizeLegibility;
-  color:#2e3b4e;
-}
 
 .navbar-nav > li > a.nav-page-Contact:hover{
   border:1px solid transparent;
@@ -73,107 +109,27 @@
   border-radius: 4px;
 }
 
-@media (max-width : 768px) {
-  .navbar-default.dark{
-    //    background-color: rgba(59, 59, 62, 0.65);
+@media (max-width: 768px){
+  .what-we-do {
+    padding-top: 30px;
+    padding-bottom: 60px;
   }
 
-  .navbar-nav > li {
-    padding-top    : 0px;
-    padding-bottom : 0px;
-  }
-
-  .navbar-nav > li > a {
-    font-size: 16px;
-    min-width: 48px;
-    line-height    : 48px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-
-  }
-
-  .navbar-nav > li > a.nav-page-Contact{
-    border:1px solid transparent;
-    color:$green;
+  .navbar-toggle{
+    position: absolute;
+    left: 0px;
+    padding: 9px 10px;
+    margin-top: 12px;
+    margin-left: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
     border-radius: 4px;
   }
-}
-
-.dark .navbar-default .navbar-nav > li > a {
-  color      : rgba(255, 255, 255, 0.85);
-  transition : all .2s ease-in-out 0;
-}
-
-.dark .navbar-default .navbar-nav > li > a:hover {
-  color : #FFF;
-}
-
-.light .navbar-default .navbar-nav > li > a {
-  color      : rgba(59, 59, 62, 0.85);
-  transition : all .2s ease-in-out 0;
-}
-
-.light .navbar-default .navbar-nav > li > a:hover {
-  color : $dark-grey;
-}
-
-.navbar-default.dark .navbar-toggle .icon-bar {
-  background-color: rgba(255, 255, 255, 0.8);
-}
-
-.navbar-default.light .navbar-toggle .icon-bar {
-  background-color: rgba(59, 59, 62, 0.8);
-}
-
-@media only screen and (max-width: 767px) {
-
-  .navbar-default.dark .navbar-collapse {
-    background: $dark-grey;
-  }
-
-  .navbar-default.light .navbar-collapse {
-    background: $off-white;
-  }
 
 
-  .syntropy-logo{
-    margin-left: 15px;
-  }
-
-  .container-fluid>.navbar-collapse {
-    margin-right: -20px;
-    margin-left: -20px;
-  }
-
-  .navbar-nav {
-    margin: 3px -15px;
-  }
-
-  .navbar-collapse {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-top: -1px;
-    overflow-x: visible;
-    -webkit-overflow-scrolling: touch;
-    border-top: 0px solid transparent;
-    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
-    box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
-  }
-
-  .navbar-default.dark .navbar-toggle {
-    border-color: rgba(255, 255, 255, 0.0);
-  }
-
-  .navbar-default.dark .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: rgba(255, 255, 255, 0.30);
-  }
-
-
-  .navbar-default.light .navbar-toggle {
-    border-color: rgba(59, 59, 62, 0.0);
-  }
-
-  .navbar-default.light .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: rgba(59, 59, 62, 0.3);
+  .container>.navbar-header{
+    text-align: center;
   }
 }

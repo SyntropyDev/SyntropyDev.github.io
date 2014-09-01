@@ -15,9 +15,51 @@ $section-lh:28px;
 $nav-height: 60px;
 
 
+// Z-Index Scale (private vars)
+// --------------------------------------------------
+$zIndex-1:   100;
+$zIndex-2:   200;
+$zIndex-3:   300;
+$zIndex-4:   400;
+$zIndex-5:   500;
+$zIndex-6:   600;
+$zIndex-7:   700;
+$zIndex-8:   800;
+$zIndex-9:   900;
+$zIndex-10: 1000;
+
+
+// Z-Index Applications
+// --------------------------------------------------
+$zIndex-7--nav:                     $zIndex-7;
+
+// Font Size Scale (private vars)
+// --------------------------------------------------
+$type-micro   :   6px;
+$type-smallest:   8px;
+$type-smaller :   10px;
+$type-small   :   12px;
+$type-base    :   14px;
+$type-large   :   16px;
+$type-larger  :   18px;
+$type-largest :   24px;
+$type-jumbo   :   36px;
+
+// Font Size Applications
+// --------------------------------------------------
+$type-micro   :   6px;
+$type-smallest:   8px;
+$type-smaller :   10px;
+$type-small   :   12px;
+$type-base    :   14px;
+$type-large   :   16px;
+$type-larger  :   18px;
+$type-largest :   24px;
+$type-jumbo   :   36px;
+
 html, body {
-  font             : 14px $font-stack;
-  font-weight: 300;
+  font             : $type-base $font-stack;
+  font-weight      : 300;
   color            : $primary-color;
   background-color : $grey;
   min-height       : 100%;
