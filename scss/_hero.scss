@@ -26,6 +26,8 @@ only screen and (min-resolution                        : 2dppx) {
   background: $dark-grey;
   background: -webkit-radial-gradient(bottom left,circle, #4D4C54,$dark-grey);
   background: radial-gradient(bottom left,circle, #4D4C54,$dark-grey);
+
+
 }
 
 .hero-pitch.home{
@@ -42,4 +44,23 @@ only screen and (min-resolution                        : 2dppx) {
   height                  : auto;
   width                   : 100%;
   -webkit-font-smoothing: antialiased;
+
 }
+
+//@media (max-width: 768px) {
+  .hero-pitch.home {
+//    background : #E1785b;
+//    background: #7AA77F;
+//    background:#E89C0C;
+//    background: #0DFAFF;
+//    background: #0ACCD0;
+//    background: #08A2A5;
+//    background: #315635;
+//    background: #224BA1;
+//    background: #202123;
+  }
+
+
+//}
+
+
