@@ -1,21 +1,10 @@
+// Font Stacks
+// --------------------------------------------------
 $font-stack : "proxima-nova", Helvetica, sans-serif;
 $medium-font-stack : "ff-din-web", sans-serif;
 $light-font-stack : "ff-din-web", sans-serif;
 
-$primary-color : #5f6a7d;
-$green : #77BC1F;
-$light-green : #A9E858;
-$grey : #8A8A8D;
-$dark-grey : #3B3B3E;
-$off-white : #FFF;
-
-$section-font:16px;
-$section-lh:28px;
-
-$nav-height: 60px;
-
-
-// Z-Index Scale (private vars)
+// Z-Index Scale                            (private)
 // --------------------------------------------------
 $zIndex-1:   100;
 $zIndex-2:   200;
@@ -28,12 +17,11 @@ $zIndex-8:   800;
 $zIndex-9:   900;
 $zIndex-10: 1000;
 
-
 // Z-Index Applications
 // --------------------------------------------------
 $zIndex-7--nav:                     $zIndex-7;
 
-// Font Size Scale (private vars)
+// Font Size Scale                          (private)
 // --------------------------------------------------
 $type-micro   :   6px;
 $type-smallest:   8px;
@@ -47,21 +35,43 @@ $type-jumbo   :   36px;
 
 // Font Size Applications
 // --------------------------------------------------
-$type-micro   :   6px;
-$type-smallest:   8px;
-$type-smaller :   10px;
-$type-small   :   12px;
-$type-base    :   14px;
-$type-large   :   16px;
-$type-larger  :   18px;
-$type-largest :   24px;
-$type-jumbo   :   36px;
+
+
+// Color Scale                              (private)
+// --------------------------------------------------
+// -- Greys
+$black:         #1E1E1F;
+$darker-grey:   #2B2B2D;
+$dark-grey:     #3B3B3E;
+$grey:          #8A8A8D;
+$light-grey:    #A5A5A9;
+$lighter-grey:  #CDCDD2;
+$white:         #FFFFFF;
+
+// -- Greens
+$green:         #77BC1F;
+$light-green:   #A9E858;
+
+// -- Blues
+$blue-green:    #5f6a7d;
+
+// Color Scale Applications
+// --------------------------------------------------
+// -- Text
+$darker-grey--body:           $darker-grey;
+$dark-grey--body-bg:   $darker-grey;
+
+// Deprecated
+// --------------------------------------------------
+$section-lh:28px;
+$nav-height: 60px;
+$section-font:16px;
 
 html, body {
   font             : $type-base $font-stack;
-  font-weight       :      300;
-  color            : $primary-color;
-  background-color : $grey;
+  font-weight      : 300;
+  color            : $darker-grey--body;
+  background-color : $dark-grey--body-bg;
   min-height       : 100%;
   height           : 100%;
 }

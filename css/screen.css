@@ -8094,17 +8094,17 @@ button.close {
     display: none !important;
   }
 }
-/* line 60, ../scss/_base.scss */
+/* line 70, ../scss/_base.scss */
 html, body {
   font: 14px "proxima-nova", Helvetica, sans-serif;
   font-weight: 300;
-  color: #5f6a7d;
-  background-color: #8A8A8D;
+  color: #2B2B2D;
+  background-color: #2B2B2D;
   min-height: 100%;
   height: 100%;
 }
 
-/* line 69, ../scss/_base.scss */
+/* line 79, ../scss/_base.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "ff-din-web", sans-serif;
 }
@@ -8303,7 +8303,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 10, ../scss/_hero.scss */
 .hero-pitch {
   position: relative;
-  color: #FFF;
+  color: #FFFFFF;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -8340,7 +8340,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 1, ../scss/_footer.scss */
 .footer.light {
   color: #8A8A8D;
-  background-color: #FFF;
+  background-color: #FFFFFF;
 }
 
 /* line 6, ../scss/_footer.scss */
@@ -8759,6 +8759,11 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 /* line 1, ../scss/_pg-home.scss */
+.overlay {
+  background-color: rgba(88, 88, 107, 0.3);
+}
+
+/* line 5, ../scss/_pg-home.scss */
 .what-we-do {
   float: left;
   padding-top: 90px;
@@ -8767,19 +8772,19 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 16px;
   text-align: left;
 }
-/* line 9, ../scss/_pg-home.scss */
+/* line 13, ../scss/_pg-home.scss */
 .what-we-do .btn-outline {
   width: 140px;
 }
 
 @media (max-width: 768px) {
-  /* line 15, ../scss/_pg-home.scss */
+  /* line 19, ../scss/_pg-home.scss */
   .what-we-do {
     padding-top: 30px;
     padding-bottom: 60px;
   }
 
-  /* line 20, ../scss/_pg-home.scss */
+  /* line 24, ../scss/_pg-home.scss */
   .navbar-toggle {
     position: absolute;
     left: 0px;
@@ -8793,16 +8798,16 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 4px;
   }
 
-  /* line 34, ../scss/_pg-home.scss */
+  /* line 38, ../scss/_pg-home.scss */
   .container > .navbar-header {
     text-align: center;
   }
 }
-/* line 39, ../scss/_pg-home.scss */
+/* line 43, ../scss/_pg-home.scss */
 .what-we-do {
   font-family: "ff-din-web", sans-serif;
 }
-/* line 42, ../scss/_pg-home.scss */
+/* line 46, ../scss/_pg-home.scss */
 .what-we-do .btn-outline {
   border: 1px solid rgba(255, 255, 255, 0.6);
   color: rgba(255, 255, 255, 0.9);
@@ -8817,32 +8822,32 @@ h1, h2, h3, h4, h5, h6 {
   font-smoothing: always;
   text-rendering: optimizeLegibility;
 }
-/* line 58, ../scss/_pg-home.scss */
+/* line 62, ../scss/_pg-home.scss */
 .what-we-do .btn-outline:hover {
   color: #fff;
   border: 1px solid #FFF;
 }
-/* line 64, ../scss/_pg-home.scss */
+/* line 68, ../scss/_pg-home.scss */
 .what-we-do .learn-more {
   margin-top: 20px;
 }
 
-/* line 71, ../scss/_pg-home.scss */
+/* line 75, ../scss/_pg-home.scss */
 .what-we-do-examples {
   margin-top: 20px;
   line-height: 24px;
 }
-/* line 75, ../scss/_pg-home.scss */
+/* line 79, ../scss/_pg-home.scss */
 .what-we-do-examples a.example {
-  color: #FFF;
+  color: #A9E858;
   margin-right: 20px;
 }
-/* line 82, ../scss/_pg-home.scss */
+/* line 86, ../scss/_pg-home.scss */
 .what-we-do-examples a.example:hover {
   color: #8BBF49;
 }
 
-/* line 87, ../scss/_pg-home.scss */
+/* line 91, ../scss/_pg-home.scss */
 a.example {
   font-size: 14px;
   font-weight: 600;
@@ -8850,50 +8855,50 @@ a.example {
   vertical-align: middle;
   transition: all .2s ease-in-out 0;
 }
-/* line 96, ../scss/_pg-home.scss */
+/* line 100, ../scss/_pg-home.scss */
 a.example i {
   font-weight: 400;
   font-size: 10px;
   vertical-align: middle;
 }
 
-/* line 103, ../scss/_pg-home.scss */
+/* line 107, ../scss/_pg-home.scss */
 a.example:hover {
   text-decoration: none;
 }
 
-/* line 109, ../scss/_pg-home.scss */
+/* line 113, ../scss/_pg-home.scss */
 .what-we-do-detail {
   font-family: "proxima-nova", Helvetica, sans-serif;
   font-weight: 300;
   font-size: 16px;
-  color: #FFF;
+  color: #FFFFFF;
   line-height: 18px;
   margin-bottom: 20px;
 }
 
-/* line 120, ../scss/_pg-home.scss */
+/* line 124, ../scss/_pg-home.scss */
 .announcement {
   background-color: #FAFAFA;
   border-top: 1px solid #e0e0e0;
   border-bottom: 1px solid #e0e0e0;
 }
-/* line 124, ../scss/_pg-home.scss */
+/* line 128, ../scss/_pg-home.scss */
 .announcement .news {
   text-align: center;
   margin: 15px 0 15px;
 }
-/* line 128, ../scss/_pg-home.scss */
+/* line 132, ../scss/_pg-home.scss */
 .announcement .news i {
   color: #77BC1F;
 }
-/* line 134, ../scss/_pg-home.scss */
+/* line 138, ../scss/_pg-home.scss */
 .announcement .contents {
   font: "ff-din-web", sans-serif;
   text-align: left;
   margin: 15px 0 15px;
 }
-/* line 139, ../scss/_pg-home.scss */
+/* line 143, ../scss/_pg-home.scss */
 .announcement .contents a {
   font-size: 12px;
   font-weight: 600;
@@ -8903,12 +8908,12 @@ a.example:hover {
   color: #5f6a7d;
   margin-right: 20px;
 }
-/* line 149, ../scss/_pg-home.scss */
+/* line 153, ../scss/_pg-home.scss */
 .announcement .contents a:hover {
   color: #77BC1F;
 }
 
-/* line 158, ../scss/_pg-home.scss */
+/* line 162, ../scss/_pg-home.scss */
 div.section.blog-bg {
   -webkit-font-smoothing: antialiased;
   background-size: cover;
@@ -8916,38 +8921,38 @@ div.section.blog-bg {
   background-image: url("/images/greenbank-sliver.png");
   background-size: cover;
 }
-/* line 166, ../scss/_pg-home.scss */
+/* line 170, ../scss/_pg-home.scss */
 div.section.blog-bg h1 {
   color: #FFF;
 }
 
-/* line 173, ../scss/_pg-home.scss */
+/* line 177, ../scss/_pg-home.scss */
 .post-snippets {
   margin-top: 30px;
   -webkit-font-smoothing: antialiased;
 }
-/* line 179, ../scss/_pg-home.scss */
+/* line 183, ../scss/_pg-home.scss */
 .post-snippets .post.read-more {
   line-height: 3em;
 }
-/* line 183, ../scss/_pg-home.scss */
+/* line 187, ../scss/_pg-home.scss */
 .post-snippets .post {
   display: block;
   width: 100%;
   float: left;
   padding-bottom: 10px;
 }
-/* line 189, ../scss/_pg-home.scss */
+/* line 193, ../scss/_pg-home.scss */
 .post-snippets .post a {
   text-decoration: none;
   cursor: pointer;
 }
-/* line 194, ../scss/_pg-home.scss */
+/* line 198, ../scss/_pg-home.scss */
 .post-snippets .post a:hover {
   text-decoration: none;
   cursor: pointer;
 }
-/* line 199, ../scss/_pg-home.scss */
+/* line 203, ../scss/_pg-home.scss */
 .post-snippets .post h4 {
   color: #FFF;
   text-overflow: ellipsis;
@@ -8958,7 +8963,7 @@ div.section.blog-bg h1 {
   margin: 0;
   padding: 0;
 }
-/* line 212, ../scss/_pg-home.scss */
+/* line 216, ../scss/_pg-home.scss */
 .post-snippets .post p {
   color: #B3B3B3;
   text-overflow: ellipsis;
@@ -8969,19 +8974,19 @@ div.section.blog-bg h1 {
   padding: 0;
   font-size: 14px;
 }
-/* line 223, ../scss/_pg-home.scss */
+/* line 227, ../scss/_pg-home.scss */
 .post-snippets .post p i {
   font-weight: 300;
 }
 @media only screen and (min-width: 767px) {
-  /* line 231, ../scss/_pg-home.scss */
+  /* line 235, ../scss/_pg-home.scss */
   .post-snippets .post {
     display: inline-block;
     max-width: 22%;
     margin-right: 3%;
     padding-bottom: 0px;
   }
-  /* line 238, ../scss/_pg-home.scss */
+  /* line 242, ../scss/_pg-home.scss */
   .post-snippets .post.read-more > a > h4 {
     text-align: right;
   }
@@ -9174,7 +9179,7 @@ a.btn-contact {
 /* line 100, ../scss/screen.scss */
 .specifics .container {
   font-size: 18px;
-  color: #FFF;
+  color: #FFFFFF;
   line-height: 26px;
 }
 /* line 104, ../scss/screen.scss */
@@ -9184,7 +9189,7 @@ a.btn-contact {
 
 /* line 113, ../scss/screen.scss */
 body.light {
-  background-color: #FFF;
+  background-color: #FFFFFF;
 }
 
 /* line 117, ../scss/screen.scss */
@@ -9195,7 +9200,7 @@ body.dark {
 /* line 121, ../scss/screen.scss */
 .section.light {
   color: #8A8A8D;
-  background-color: #FFF;
+  background-color: #FFFFFF;
 }
 /* line 125, ../scss/screen.scss */
 .section.light h1 {
@@ -9385,7 +9390,7 @@ textarea, input {
 /* line 303, ../scss/screen.scss */
 .map {
   position: relative;
-  color: #FFF;
+  color: #FFFFFF;
   height: 500px;
   width: 100%;
   box-sizing: content-box;
@@ -9405,7 +9410,7 @@ textarea, input {
   /* line 322, ../scss/screen.scss */
   .map {
     position: relative;
-    color: #FFF;
+    color: #FFFFFF;
     height: 270px;
     width: 100%;
     box-sizing: content-box;

@@ -99,7 +99,7 @@ a.btn-contact{
   height           : 115px;
   .container {
     font-size   : 18px;
-    color       : $off-white;
+    color       : $white;
     line-height : 26px;
     a {
       color : $green;
@@ -111,7 +111,7 @@ a.btn-contact{
 
 
 body.light {
-  background-color : $off-white;
+  background-color : $white;
 }
 
 body.dark {
@@ -120,7 +120,7 @@ body.dark {
 
 .section.light {
   color            : $grey;
-  background-color : $off-white;
+  background-color : $white;
 
   h1{
     color            : $dark-grey;
@@ -302,7 +302,7 @@ textarea, input { outline: none; }
 
 .map{
   position                : relative;
-  color                   : $off-white;
+  color                   : $white;
   height                  : 500px;
   width                   : 100%;
   box-sizing: content-box;
@@ -321,7 +321,7 @@ textarea, input { outline: none; }
 
   .map{
     position                : relative;
-    color                   : $off-white;
+    color                   : $white;
     height                  : 270px;
     width                   : 100%;
     box-sizing: content-box;
