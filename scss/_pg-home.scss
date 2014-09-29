@@ -159,29 +159,16 @@ a.example:hover{
 
 //Blog post snippets
 
-div.section.blog-bg{
-  -webkit-font-smoothing: antialiased;
-
-  background-size: cover;
-  background-color: $dark-grey;
-  background-image: url('/images/greenbank-sliver.png');
-  background-size:cover;
-
-  h1{
-    color:#FFF;
-
-  }
-
-}
-
 .post-snippets{
   margin-top: 30px;
   -webkit-font-smoothing: antialiased;
 
-
-
   .post.read-more{
     line-height: 3em;
+
+    h4{
+      color:$blue;
+    }
   }
 
   .post{
@@ -189,19 +176,23 @@ div.section.blog-bg{
     width: 100%;
     float:left;
     padding-bottom: 10px;
+    color:$grey;
 
     a{
+      color:$grey;
       text-decoration: none;
       cursor : pointer;
     }
 
     a:hover{
+      color:$grey;
+
       text-decoration: none;
       cursor : pointer;
     }
 
     h4{
-      color:#FFF;
+
       text-overflow: ellipsis;
       white-space: nowrap;
       overflow: hidden;
@@ -214,7 +205,6 @@ div.section.blog-bg{
     }
 
     p{
-      color: #B3B3B3;
       text-overflow: ellipsis;
       white-space: nowrap;
       overflow: hidden;
@@ -239,7 +229,8 @@ div.section.blog-bg{
       padding-bottom: 0px;
     }
 
-    .post.read-more > a > h4{
+    .read-more > a{
+      display:block;
       text-align: right;
     }
   }

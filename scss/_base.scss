@@ -53,13 +53,18 @@ $green:         #77BC1F;
 $light-green:   #A9E858;
 
 // -- Blues
+$blue:#428bca;
 $blue-green:    #5f6a7d;
 
 // Color Scale Applications
 // --------------------------------------------------
 // -- Text
-$darker-grey--body:           $darker-grey;
+$darker-grey--body:    $darker-grey;
 $dark-grey--body-bg:   $darker-grey;
+
+$darker-grey--post-titles: $darker-grey;
+$dark-grey--post-body: $dark-grey;
+
 
 // Deprecated
 // --------------------------------------------------

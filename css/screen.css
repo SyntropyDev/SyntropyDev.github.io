@@ -8094,7 +8094,7 @@ button.close {
     display: none !important;
   }
 }
-/* line 70, ../scss/_base.scss */
+/* line 75, ../scss/_base.scss */
 html, body {
   font: 14px "proxima-nova", Helvetica, sans-serif;
   font-weight: 300;
@@ -8104,7 +8104,7 @@ html, body {
   height: 100%;
 }
 
-/* line 79, ../scss/_base.scss */
+/* line 84, ../scss/_base.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "ff-din-web", sans-serif;
 }
@@ -8914,47 +8914,40 @@ a.example:hover {
 }
 
 /* line 162, ../scss/_pg-home.scss */
-div.section.blog-bg {
-  -webkit-font-smoothing: antialiased;
-  background-size: cover;
-  background-color: #3B3B3E;
-  background-image: url("/images/greenbank-sliver.png");
-  background-size: cover;
-}
-/* line 170, ../scss/_pg-home.scss */
-div.section.blog-bg h1 {
-  color: #FFF;
-}
-
-/* line 177, ../scss/_pg-home.scss */
 .post-snippets {
   margin-top: 30px;
   -webkit-font-smoothing: antialiased;
 }
-/* line 183, ../scss/_pg-home.scss */
+/* line 166, ../scss/_pg-home.scss */
 .post-snippets .post.read-more {
   line-height: 3em;
 }
-/* line 187, ../scss/_pg-home.scss */
+/* line 169, ../scss/_pg-home.scss */
+.post-snippets .post.read-more h4 {
+  color: #428bca;
+}
+/* line 174, ../scss/_pg-home.scss */
 .post-snippets .post {
   display: block;
   width: 100%;
   float: left;
   padding-bottom: 10px;
+  color: #8A8A8D;
 }
-/* line 193, ../scss/_pg-home.scss */
+/* line 181, ../scss/_pg-home.scss */
 .post-snippets .post a {
+  color: #8A8A8D;
   text-decoration: none;
   cursor: pointer;
 }
-/* line 198, ../scss/_pg-home.scss */
+/* line 187, ../scss/_pg-home.scss */
 .post-snippets .post a:hover {
+  color: #8A8A8D;
   text-decoration: none;
   cursor: pointer;
 }
-/* line 203, ../scss/_pg-home.scss */
+/* line 194, ../scss/_pg-home.scss */
 .post-snippets .post h4 {
-  color: #FFF;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -8963,9 +8956,8 @@ div.section.blog-bg h1 {
   margin: 0;
   padding: 0;
 }
-/* line 216, ../scss/_pg-home.scss */
+/* line 207, ../scss/_pg-home.scss */
 .post-snippets .post p {
-  color: #B3B3B3;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -8974,20 +8966,21 @@ div.section.blog-bg h1 {
   padding: 0;
   font-size: 14px;
 }
-/* line 227, ../scss/_pg-home.scss */
+/* line 217, ../scss/_pg-home.scss */
 .post-snippets .post p i {
   font-weight: 300;
 }
 @media only screen and (min-width: 767px) {
-  /* line 235, ../scss/_pg-home.scss */
+  /* line 225, ../scss/_pg-home.scss */
   .post-snippets .post {
     display: inline-block;
     max-width: 22%;
     margin-right: 3%;
     padding-bottom: 0px;
   }
-  /* line 242, ../scss/_pg-home.scss */
-  .post-snippets .post.read-more > a > h4 {
+  /* line 232, ../scss/_pg-home.scss */
+  .post-snippets .read-more > a {
+    display: block;
     text-align: right;
   }
 }
@@ -9110,7 +9103,7 @@ a.btn-contact:hover {
   border: 1px solid transparent;
 }
 
-/* line 30, ../scss/screen.scss */
+/* line 29, ../scss/screen.scss */
 a.btn-contact {
   color: white;
   border: 1px solid transparent;
@@ -9132,7 +9125,7 @@ a.btn-contact {
   text-rendering: optimizeLegibility;
 }
 
-/* line 55, ../scss/screen.scss */
+/* line 54, ../scss/screen.scss */
 .btn-outline {
   background-color: transparent;
   border-radius: 6px;
@@ -9144,31 +9137,31 @@ a.btn-contact {
   transition: all .2s ease-in-out 0;
 }
 
-/* line 71, ../scss/screen.scss */
+/* line 70, ../scss/screen.scss */
 .btn-outline.light {
   color: rgba(255, 255, 255, 0.7);
   border: 1px solid rgba(255, 255, 255, 0.7);
 }
 
-/* line 76, ../scss/screen.scss */
+/* line 75, ../scss/screen.scss */
 .btn-outline.light:hover {
   color: #FFF;
   border: 1px solid #FFF;
 }
 
-/* line 81, ../scss/screen.scss */
+/* line 80, ../scss/screen.scss */
 .btn-outline.dark {
   border: 1px solid rgba(29, 28, 30, 0.6);
   color: rgba(29, 28, 30, 0.6);
 }
 
-/* line 86, ../scss/screen.scss */
+/* line 85, ../scss/screen.scss */
 .btn-outline.dark:hover {
   color: #1d1c1e;
   border: 1px solid #1d1c1e;
 }
 
-/* line 93, ../scss/screen.scss */
+/* line 92, ../scss/screen.scss */
 .specifics {
   position: relative;
   padding-top: 33px;
@@ -9176,55 +9169,55 @@ a.btn-contact {
   background-color: rgba(119, 188, 31, 0.65);
   height: 115px;
 }
-/* line 100, ../scss/screen.scss */
+/* line 99, ../scss/screen.scss */
 .specifics .container {
   font-size: 18px;
   color: #FFFFFF;
   line-height: 26px;
 }
-/* line 104, ../scss/screen.scss */
+/* line 103, ../scss/screen.scss */
 .specifics .container a {
   color: #77BC1F;
 }
 
-/* line 113, ../scss/screen.scss */
+/* line 112, ../scss/screen.scss */
 body.light {
   background-color: #FFFFFF;
 }
 
-/* line 117, ../scss/screen.scss */
+/* line 116, ../scss/screen.scss */
 body.dark {
   background-color: #3b3b3e;
 }
 
-/* line 121, ../scss/screen.scss */
+/* line 120, ../scss/screen.scss */
 .section.light {
   color: #8A8A8D;
   background-color: #FFFFFF;
 }
-/* line 125, ../scss/screen.scss */
+/* line 124, ../scss/screen.scss */
 .section.light h1 {
   color: #3B3B3E;
 }
 
-/* line 130, ../scss/screen.scss */
+/* line 129, ../scss/screen.scss */
 .section.light.light-alternate {
   background-color: #FAFAFA;
   border-top: 1px solid #E0E0E0;
   border-bottom: 1px solid #E0E0E0;
 }
 
-/* line 137, ../scss/screen.scss */
+/* line 136, ../scss/screen.scss */
 .section.dark {
   color: #EEE;
   background-color: #3b3b3e;
 }
-/* line 141, ../scss/screen.scss */
+/* line 140, ../scss/screen.scss */
 .section.dark h1 {
   color: #FFF;
 }
 
-/* line 147, ../scss/screen.scss */
+/* line 146, ../scss/screen.scss */
 .section {
   font-size: 16px;
   font-weight: 300;
@@ -9235,7 +9228,7 @@ body.dark {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-/* line 159, ../scss/screen.scss */
+/* line 158, ../scss/screen.scss */
 .section h1 {
   font-size: 28px;
   line-height: 32px;
@@ -9243,21 +9236,21 @@ body.dark {
   color: #3B3B3E;
   text-align: center;
 }
-/* line 167, ../scss/screen.scss */
+/* line 166, ../scss/screen.scss */
 .section .heading {
   text-align: center;
   margin: 0 auto;
   max-width: 700px;
 }
 
-/* line 180, ../scss/screen.scss */
+/* line 179, ../scss/screen.scss */
 .img-responsive {
   display: block;
   height: auto;
   max-width: 100%;
 }
 
-/* line 186, ../scss/screen.scss */
+/* line 185, ../scss/screen.scss */
 blockquote {
   padding: 10px 20px;
   margin: 0 0 20px;
@@ -9265,7 +9258,7 @@ blockquote {
   border-left: 8px solid #EEE;
 }
 
-/* line 193, ../scss/screen.scss */
+/* line 192, ../scss/screen.scss */
 .big {
   font: "ff-din-web", sans-serif;
   font-size: 46px;
@@ -9274,16 +9267,16 @@ blockquote {
   line-height: 1.2;
 }
 
-/* line 201, ../scss/screen.scss */
+/* line 200, ../scss/screen.scss */
 .section-title {
   margin-bottom: 0px;
   text-align: left;
 }
-/* line 206, ../scss/screen.scss */
+/* line 205, ../scss/screen.scss */
 .section-title .container h1 {
   margin-top: 10px;
 }
-/* line 209, ../scss/screen.scss */
+/* line 208, ../scss/screen.scss */
 .section-title .container h1 a {
   padding: 20px 20px 15px;
   width: 100%;
@@ -9291,17 +9284,17 @@ blockquote {
   display: block;
   color: #fff;
 }
-/* line 217, ../scss/screen.scss */
+/* line 216, ../scss/screen.scss */
 .section-title .container h1 a:hover {
   color: #fff;
 }
-/* line 222, ../scss/screen.scss */
+/* line 221, ../scss/screen.scss */
 .section-title .container p {
   font-size: 18px;
   line-height: 26px;
 }
 
-/* line 231, ../scss/screen.scss */
+/* line 230, ../scss/screen.scss */
 label {
   display: inline-block;
   margin-bottom: 5px;
@@ -9310,7 +9303,7 @@ label {
   font-family: "ff-din-web", sans-serif;
 }
 
-/* line 239, ../scss/screen.scss */
+/* line 238, ../scss/screen.scss */
 .form-control {
   display: block;
   width: 100%;
@@ -9325,7 +9318,7 @@ label {
   transition: all ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 
-/* line 253, ../scss/screen.scss */
+/* line 252, ../scss/screen.scss */
 .dark .form-control {
   color: #FFF;
   background-color: #2D2D2F;
@@ -9333,42 +9326,42 @@ label {
   border: 1px solid transparent;
 }
 
-/* line 260, ../scss/screen.scss */
+/* line 259, ../scss/screen.scss */
 textarea, input {
   outline: none;
 }
 
-/* line 262, ../scss/screen.scss */
+/* line 261, ../scss/screen.scss */
 .light .form-control {
   color: #3b3b3e;
   background-color: #FFF;
   border: 1px solid #77BC1F;
 }
 
-/* line 268, ../scss/screen.scss */
+/* line 267, ../scss/screen.scss */
 .light .form-control:focus {
   border-left: 6px solid #77BC1F;
 }
 
-/* line 272, ../scss/screen.scss */
+/* line 271, ../scss/screen.scss */
 .light h1, .light h2, .light h3, .light h4, .light h5, .light h6 {
   color: #3b3b3e;
 }
 
-/* line 276, ../scss/screen.scss */
+/* line 275, ../scss/screen.scss */
 .form-control:focus {
   outline: none;
   border-color: #77BC1F;
   box-shadow: none;
 }
 
-/* line 282, ../scss/screen.scss */
+/* line 281, ../scss/screen.scss */
 .section-title.green {
   background-color: #77BC1F;
   color: #FFF;
 }
 
-/* line 287, ../scss/screen.scss */
+/* line 286, ../scss/screen.scss */
 .section-title.grey {
   background-color: #8A8A8D;
   color: #FFF;
@@ -9376,18 +9369,18 @@ textarea, input {
   padding-bottom: 15px;
 }
 
-/* line 294, ../scss/screen.scss */
+/* line 293, ../scss/screen.scss */
 .section-title.grey h1 {
   color: #FFF;
 }
 
-/* line 298, ../scss/screen.scss */
+/* line 297, ../scss/screen.scss */
 .section-title.dark {
   background-color: #3B3B3E;
   color: #FFF;
 }
 
-/* line 303, ../scss/screen.scss */
+/* line 302, ../scss/screen.scss */
 .map {
   position: relative;
   color: #FFFFFF;
@@ -9396,18 +9389,18 @@ textarea, input {
   box-sizing: content-box;
 }
 
-/* line 311, ../scss/screen.scss */
+/* line 310, ../scss/screen.scss */
 .map-container {
   border-bottom: 8px solid #77BC1F;
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 318, ../scss/screen.scss */
+  /* line 317, ../scss/screen.scss */
   .section h2 {
     text-align: center;
   }
 
-  /* line 322, ../scss/screen.scss */
+  /* line 321, ../scss/screen.scss */
   .map {
     position: relative;
     color: #FFFFFF;
