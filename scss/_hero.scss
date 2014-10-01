@@ -15,10 +15,7 @@ only screen and (min-resolution                        : 2dppx) {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  -webkit-background-size : cover;
-  -moz-background-size    : cover;
-  -o-background-size      : cover;
-  background-size         : cover;
+
   height                  : auto;
   width                   : 100%;
   -webkit-font-smoothing: antialiased;
@@ -37,15 +34,38 @@ only screen and (min-resolution                        : 2dppx) {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  -webkit-background-size : cover;
-  -moz-background-size    : cover;
-  -o-background-size      : cover;
-  background-size         : cover;
+
   height                  : auto;
   width                   : 100%;
   -webkit-font-smoothing: antialiased;
 }
 
+.hero-pitch.process{
+  background-image:url(/images/process.png);
+  background-position-x: left;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  height                  : auto;
+  width                   : 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+.hero-pitch.company{
+  background-image:url(/images/morgantown.png);
+  background-position-x: left;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  height                  : auto;
+  width                   : 100%;
+  -webkit-font-smoothing: antialiased;
+}
 
 .hero-pitch.home{
   background-image:url(/images/traffic.jpg);
@@ -54,10 +74,7 @@ only screen and (min-resolution                        : 2dppx) {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  -webkit-background-size : cover;
-  -moz-background-size    : cover;
-  -o-background-size      : cover;
-  background-size         : cover;
+
   height                  : auto;
   width                   : 100%;
   -webkit-font-smoothing: antialiased;
