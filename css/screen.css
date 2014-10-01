@@ -9474,3 +9474,14 @@ textarea, input {
   font-size: 14px;
   font-weight: 400;
 }
+
+/* line 378, ../scss/screen.scss */
+.hbspt-form {
+  width: 100%;
+}
+
+/* line 382, ../scss/screen.scss */
+.hs-form.stacked .actions {
+  margin: 0 !important;
+  padding: 0 !important;
+}

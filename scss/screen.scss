@@ -374,3 +374,13 @@ textarea, input { outline: none; }
   font-size: $type-base;
   font-weight: 400;
 }
+
+.hbspt-form{
+  width:100%;
+}
+
+.hs-form.stacked .actions{
+  margin:0 !important;
+  padding:0 !important;
+
+}
