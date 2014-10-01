@@ -30,6 +30,23 @@ only screen and (min-resolution                        : 2dppx) {
 
 }
 
+.hero-pitch.oil-gas{
+  background-image:url(/images/oil-gas-hero-2.png);
+  background-position-x: left;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-background-size : cover;
+  -moz-background-size    : cover;
+  -o-background-size      : cover;
+  background-size         : cover;
+  height                  : auto;
+  width                   : 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+
 .hero-pitch.home{
   background-image:url(/images/traffic.jpg);
   background-position-x: left;

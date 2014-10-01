@@ -166,11 +166,13 @@ body.dark {
   .heading {
     text-align    : center;
     margin:0 auto;
-
-
-
     max-width: 700px;
+  }
 
+  .heading-full {
+    text-align    : center;
+    margin:0 auto;
+    max-width: auto;
   }
 
 }
@@ -231,8 +233,10 @@ label {
   display: inline-block;
   margin-bottom: 5px;
   font-weight: 500;
-  font-size: 18px;
-  font-family: $medium-font-stack;
+  font-size: 14px;
+  font-family: $font-stack;
+
+  color: $dark-grey;
 }
 
 .form-control {
@@ -260,12 +264,12 @@ textarea, input { outline: none; }
 
 .light .form-control{
   color:#3b3b3e;
-  background-color:#FFF;
-  border: 1px solid $green;
+  background-color:$white;
+  border: 1px solid $lighter-grey;
 }
 
 .light .form-control:focus{
-  border-left:6px solid $green;
+//  border-left:6px solid $green;
 }
 
 .light h1, .light h2, .light h3, .light h4, .light h5, .light h6{
@@ -325,4 +329,26 @@ textarea, input { outline: none; }
     width                   : 100%;
     box-sizing: content-box;
   }
+}
+
+.oil-gas-form{
+  background-color: $lightest-grey;
+  padding:15px;
+
+
+}
+
+.help-block{
+  font-size: $type-small;
+  font-family: $font-stack;
+  line-height: $type-small;
+  font-weight: 400;
+}
+
+.disclosure{
+  font-size: $type-small;
+  font-family: $font-stack;
+  line-height: $type-small;
+  font-weight: 400;
+  text-align: center;
 }
