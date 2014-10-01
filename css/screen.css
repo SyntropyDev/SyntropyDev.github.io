@@ -8873,12 +8873,12 @@ h1, h2, h3, h4, h5, h6 {
   color: #A9E858;
   margin-right: 20px;
 }
-/* line 86, ../scss/_pg-home.scss */
+/* line 85, ../scss/_pg-home.scss */
 .what-we-do-examples a.example:hover {
   color: #8BBF49;
 }
 
-/* line 91, ../scss/_pg-home.scss */
+/* line 90, ../scss/_pg-home.scss */
 a.example {
   font-size: 14px;
   font-weight: 600;
@@ -8886,19 +8886,19 @@ a.example {
   vertical-align: middle;
   transition: all .2s ease-in-out 0;
 }
-/* line 100, ../scss/_pg-home.scss */
+/* line 99, ../scss/_pg-home.scss */
 a.example i {
   font-weight: 400;
   font-size: 10px;
   vertical-align: middle;
 }
 
-/* line 107, ../scss/_pg-home.scss */
+/* line 106, ../scss/_pg-home.scss */
 a.example:hover {
   text-decoration: none;
 }
 
-/* line 113, ../scss/_pg-home.scss */
+/* line 112, ../scss/_pg-home.scss */
 .what-we-do-detail {
   font-family: "proxima-nova", Helvetica, sans-serif;
   font-weight: 300;
@@ -8908,28 +8908,28 @@ a.example:hover {
   margin-bottom: 20px;
 }
 
-/* line 124, ../scss/_pg-home.scss */
+/* line 123, ../scss/_pg-home.scss */
 .announcement {
   background-color: #FAFAFA;
   border-top: 1px solid #e0e0e0;
   border-bottom: 1px solid #e0e0e0;
 }
-/* line 128, ../scss/_pg-home.scss */
+/* line 127, ../scss/_pg-home.scss */
 .announcement .news {
   text-align: center;
   margin: 15px 0 15px;
 }
-/* line 132, ../scss/_pg-home.scss */
+/* line 131, ../scss/_pg-home.scss */
 .announcement .news i {
   color: #77BC1F;
 }
-/* line 138, ../scss/_pg-home.scss */
+/* line 137, ../scss/_pg-home.scss */
 .announcement .contents {
   font: "ff-din-web", sans-serif;
   text-align: left;
   margin: 15px 0 15px;
 }
-/* line 143, ../scss/_pg-home.scss */
+/* line 142, ../scss/_pg-home.scss */
 .announcement .contents a {
   font-size: 12px;
   font-weight: 600;
@@ -8939,25 +8939,25 @@ a.example:hover {
   color: #5f6a7d;
   margin-right: 20px;
 }
-/* line 153, ../scss/_pg-home.scss */
+/* line 152, ../scss/_pg-home.scss */
 .announcement .contents a:hover {
   color: #77BC1F;
 }
 
-/* line 162, ../scss/_pg-home.scss */
+/* line 161, ../scss/_pg-home.scss */
 .post-snippets {
   margin-top: 30px;
   -webkit-font-smoothing: antialiased;
 }
-/* line 166, ../scss/_pg-home.scss */
+/* line 165, ../scss/_pg-home.scss */
 .post-snippets .post.read-more {
   line-height: 3em;
 }
-/* line 169, ../scss/_pg-home.scss */
+/* line 168, ../scss/_pg-home.scss */
 .post-snippets .post.read-more h4 {
   color: #428bca;
 }
-/* line 174, ../scss/_pg-home.scss */
+/* line 173, ../scss/_pg-home.scss */
 .post-snippets .post {
   display: block;
   width: 100%;
@@ -8965,19 +8965,19 @@ a.example:hover {
   padding-bottom: 10px;
   color: #8A8A8D;
 }
-/* line 181, ../scss/_pg-home.scss */
+/* line 180, ../scss/_pg-home.scss */
 .post-snippets .post a {
   color: #8A8A8D;
   text-decoration: none;
   cursor: pointer;
 }
-/* line 187, ../scss/_pg-home.scss */
+/* line 186, ../scss/_pg-home.scss */
 .post-snippets .post a:hover {
   color: #8A8A8D;
   text-decoration: none;
   cursor: pointer;
 }
-/* line 194, ../scss/_pg-home.scss */
+/* line 193, ../scss/_pg-home.scss */
 .post-snippets .post h4 {
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -8987,7 +8987,7 @@ a.example:hover {
   margin: 0;
   padding: 0;
 }
-/* line 207, ../scss/_pg-home.scss */
+/* line 206, ../scss/_pg-home.scss */
 .post-snippets .post p {
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -8997,19 +8997,19 @@ a.example:hover {
   padding: 0;
   font-size: 14px;
 }
-/* line 217, ../scss/_pg-home.scss */
+/* line 216, ../scss/_pg-home.scss */
 .post-snippets .post p i {
   font-weight: 300;
 }
 @media only screen and (min-width: 767px) {
-  /* line 225, ../scss/_pg-home.scss */
+  /* line 224, ../scss/_pg-home.scss */
   .post-snippets .post {
     display: inline-block;
     max-width: 22%;
     margin-right: 3%;
     padding-bottom: 0px;
   }
-  /* line 232, ../scss/_pg-home.scss */
+  /* line 231, ../scss/_pg-home.scss */
   .post-snippets .read-more > a {
     display: block;
     text-align: right;
