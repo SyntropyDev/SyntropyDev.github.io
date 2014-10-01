@@ -19,14 +19,14 @@
 @import 'pg-team';
 @import 'pg-strategies';
 
-a.btn-contact:hover{
+.btn-contact:hover{
 
   background-color: #5A8F17;
   color      : rgba(255, 255, 255, 1);
   border:1px solid transparent;
 }
 
-a.btn-contact{
+.btn-contact{
 
   color      : rgba(255, 255, 255, 1);
   border:1px solid transparent;
@@ -350,5 +350,20 @@ textarea, input { outline: none; }
   font-family: $font-stack;
   line-height: $type-small;
   font-weight: 400;
+  text-align: center;
+}
+
+.big-stat{
+  font-size:78px;
+  font-weight:500;
+  text-align: center;
+
+  .percent{
+    font-size:52px;
+  }
+}
+
+.stat-label{
+  margin-top:30px;
   text-align: center;
 }

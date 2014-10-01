@@ -9114,14 +9114,14 @@ a.example:hover {
 }
 
 /* line 22, ../scss/screen.scss */
-a.btn-contact:hover {
+.btn-contact:hover {
   background-color: #5A8F17;
   color: white;
   border: 1px solid transparent;
 }
 
 /* line 29, ../scss/screen.scss */
-a.btn-contact {
+.btn-contact {
   color: white;
   border: 1px solid transparent;
   background-color: #77BC1F;
@@ -9448,5 +9448,22 @@ textarea, input {
   font-family: "proxima-nova", Helvetica, sans-serif;
   line-height: 12px;
   font-weight: 400;
+  text-align: center;
+}
+
+/* line 356, ../scss/screen.scss */
+.big-stat {
+  font-size: 78px;
+  font-weight: 500;
+  text-align: center;
+}
+/* line 361, ../scss/screen.scss */
+.big-stat .percent {
+  font-size: 52px;
+}
+
+/* line 366, ../scss/screen.scss */
+.stat-label {
+  margin-top: 30px;
   text-align: center;
 }
