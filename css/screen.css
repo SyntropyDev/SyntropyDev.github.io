@@ -9006,26 +9006,28 @@ a.example:hover {
 .team .member-row .member {
   position: relative;
   margin-bottom: 30px;
+  height: 115px;
 }
-/* line 9, ../scss/_pg-team.scss */
+/* line 10, ../scss/_pg-team.scss */
 .team .member-row .member .links {
   background-color: #8A8A8D;
   padding-left: 30px;
   padding-right: 30px;
   font-size: 22px;
+  height: 30px;
 }
-/* line 13, ../scss/_pg-team.scss */
+/* line 14, ../scss/_pg-team.scss */
 .team .member-row .member .links a {
   color: #FFF;
   padding-right: 10px;
   font-size: 18px;
 }
-/* line 14, ../scss/_pg-team.scss */
+/* line 15, ../scss/_pg-team.scss */
 .team .member-row .member .links a:hover {
   color: #FFF;
   text-decoration: none;
 }
-/* line 18, ../scss/_pg-team.scss */
+/* line 21, ../scss/_pg-team.scss */
 .team .member-row .member img {
   width: 115px;
   float: left;
@@ -9034,7 +9036,7 @@ a.example:hover {
   margin-bottom: 0px;
   margin-right: 15px;
 }
-/* line 26, ../scss/_pg-team.scss */
+/* line 29, ../scss/_pg-team.scss */
 .team .member-row .member h2 {
   background-color: #77BC1F;
   line-height: 1.1em;
@@ -9042,20 +9044,69 @@ a.example:hover {
   margin-bottom: 0px;
   padding: 10px 30px;
   margin-top: 0;
+  height: 85px;
+  text-align: left;
 }
-/* line 34, ../scss/_pg-team.scss */
+/* line 39, ../scss/_pg-team.scss */
 .team .member-row .member small {
   display: block;
   background-color: #77BC1F;
   color: #FFF;
 }
-/* line 39, ../scss/_pg-team.scss */
+/* line 44, ../scss/_pg-team.scss */
 .team .member-row .member p {
   display: none !important;
   font-size: 16px;
   line-height: 28px;
 }
 
+@media only screen and (max-width: 767px) {
+  /* line 61, ../scss/_pg-team.scss */
+  .team .member-row .member {
+    position: relative;
+    margin-bottom: 30px;
+    height: 140px;
+  }
+  /* line 66, ../scss/_pg-team.scss */
+  .team .member-row .member .links {
+    background-color: #8A8A8D;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 22px;
+    height: 30px;
+  }
+  /* line 70, ../scss/_pg-team.scss */
+  .team .member-row .member .links a {
+    color: #FFF;
+    padding-right: 10px;
+    font-size: 18px;
+  }
+  /* line 71, ../scss/_pg-team.scss */
+  .team .member-row .member .links a:hover {
+    color: #FFF;
+    text-decoration: none;
+  }
+  /* line 77, ../scss/_pg-team.scss */
+  .team .member-row .member img {
+    width: 140px;
+    float: left;
+    height: 140px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 15px;
+  }
+  /* line 85, ../scss/_pg-team.scss */
+  .team .member-row .member h2 {
+    background-color: #77BC1F;
+    line-height: 1.1em;
+    color: #FFF;
+    margin-bottom: 0px;
+    padding: 10px 30px;
+    margin-top: 0;
+    height: 110px;
+    text-align: left;
+  }
+}
 /* line 3, ../scss/_pg-strategies.scss */
 #strategies h2 {
   font-size: 20px;
