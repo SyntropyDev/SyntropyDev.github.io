@@ -8094,7 +8094,7 @@ button.close {
     display: none !important;
   }
 }
-/* line 77, ../scss/_base.scss */
+/* line 78, ../scss/_base.scss */
 html, body {
   font: 14px "proxima-nova", Helvetica, sans-serif;
   font-weight: 300;
@@ -8104,7 +8104,7 @@ html, body {
   height: 100%;
 }
 
-/* line 86, ../scss/_base.scss */
+/* line 87, ../scss/_base.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "ff-din-web", sans-serif;
 }
@@ -8288,18 +8288,98 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 44px;
     font-size: 20px;
     border-right: 1px solid #4d4d4d;
+    z-index: 1000;
   }
-  /* line 148, ../scss/_navbar.scss */
+  /* line 149, ../scss/_navbar.scss */
   .nav-toggle-container a {
     color: #FFF;
   }
 }
 @media (max-width: 300px) {
-  /* line 156, ../scss/_navbar.scss */
+  /* line 157, ../scss/_navbar.scss */
   .nav-logo {
     display: none;
   }
 }
+/* line 162, ../scss/_navbar.scss */
+#sidebar-wrapper {
+  -webkit-font-smoothing: antialiased;
+  display: inline;
+  background-color: #2B2B2D;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: -80%;
+  z-index: 4;
+  min-height: 100%;
+  width: 80%;
+}
+
+/* line 175, ../scss/_navbar.scss */
+#wrapper {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  transition: all 200ms ease;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+}
+
+/* line 188, ../scss/_navbar.scss */
+#wrapper.toggled {
+  transform: translate3d(80%, 0, 0);
+  -webkit-transform: translate3d(80%, 0, 0);
+}
+
+/* line 192, ../scss/_navbar.scss */
+ul.menu-items {
+  overflow: auto;
+  margin: 0;
+  padding: 4px 0 8px;
+}
+/* line 197, ../scss/_navbar.scss */
+ul.menu-items li {
+  width: 100%;
+  display: block;
+  float: left;
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: block;
+}
+/* line 207, ../scss/_navbar.scss */
+ul.menu-items li a {
+  font-size: 20px;
+  line-height: 40px;
+  color: #CDCDD2;
+}
+/* line 214, ../scss/_navbar.scss */
+ul.menu-items li a:hover, ul.menu-items li a:active {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+/* line 219, ../scss/_navbar.scss */
+ul.menu-items li p {
+  color: #CDCDD2;
+}
+/* line 224, ../scss/_navbar.scss */
+ul.menu-items li.menu-section-title {
+  color: #A5A5A9;
+  line-height: 40px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-top: 20px;
+  border-top: 1px solid #3B3B3E;
+}
+/* line 235, ../scss/_navbar.scss */
+ul.menu-items li.menu-section-title.first {
+  margin-top: 0px;
+  border-top: 0px solid #3B3B3E;
+}
+
 /* line 10, ../scss/_hero.scss */
 .hero-pitch {
   position: relative;
