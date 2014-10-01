@@ -9459,7 +9459,7 @@ textarea, input {
 }
 /* line 361, ../scss/screen.scss */
 .big-stats div {
-  min-height: 105px;
+  min-height: 65px;
   text-align: center;
 }
 /* line 366, ../scss/screen.scss */
