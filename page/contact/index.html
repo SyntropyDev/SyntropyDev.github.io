@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Contact
-permalink: /contact/
 visibility: "navigation"
 rank: 10
 ---
@@ -34,50 +33,14 @@ window._fbq.push(['track', '6016740628957', {'value':'0.00','currency':'USD'}]);
     <div class="row">
       <div class="col-md-5 col-sm-6">
         <h2 id="contact">Contact</h2>
-
-        <!--Use Segment.io to identify users from this contact form-->
+        <script charset="utf-8" src="//js.hsforms.net/forms/current.js"></script>
         <script>
-          //        analytics.identify('f4ca124298', {
-          //          name: '',
-          //          email: '',
-          //          message: ''
-          //        });
-
-//          analytics.track('Requested contact', {
-//          });
+          hbspt.forms.create({
+            portalId: '443107',
+            formId: 'bac0b075-25af-4a96-badb-2b8dd397fb9e'
+          });
         </script>
-
-        <form method="{{site.contact_form_method}}" action="{{site.contact_form_action_url}}" role="form">
-          <div class="row">
-            <div class="col-sm-6">
-              <div class="form-group">
-                <label for="name" class="control-label">Your full name</label>
-                <input class="form-control" type="text" name="name" id="name" placeholder="Full name">
-              </div>
-
-            </div>
-            <div class="col-sm-6">
-              <div class="form-group">
-                <label for="email" class="control-label">Your email</label>
-                <input class="form-control" type="email" name="_replyto" id="email" placeholder="example@email.com">
-              </div>
-            </div>
-          </div>
-
-          <div class="form-group">
-            <label for="idea" class="control-label">How can we help?</label>
-            <textarea class="form-control" name="idea" id="idea" style="height: 150px;"></textarea>
-          </div>
-
-          <div class="form-group">
-            <input type="hidden" name="_next" value="{{site.contact_form_redirect_url}}" />
-            <input class="btn-outline dark" type="submit" value="Send">
-          </div>
-
-        </form>
       </div>
-
-
 
       <div class="col-md-5 col-md-offset-2 col-sm-6">
         <h3 >More Info</h3>
