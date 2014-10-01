@@ -9452,19 +9452,25 @@ textarea, input {
 }
 
 /* line 356, ../scss/screen.scss */
-.big-stat {
+.big-stats {
   font-size: 78px;
   font-weight: 500;
   text-align: center;
-  clear: both;
 }
-/* line 362, ../scss/screen.scss */
-.big-stat .percent {
+/* line 361, ../scss/screen.scss */
+.big-stats div {
+  min-height: 105px;
+  text-align: center;
+}
+/* line 366, ../scss/screen.scss */
+.big-stats .percent {
   font-size: 52px;
 }
 
-/* line 367, ../scss/screen.scss */
+/* line 371, ../scss/screen.scss */
 .stat-label {
   margin-top: 30px;
   text-align: center;
+  font-size: 14px;
+  font-weight: 400;
 }
